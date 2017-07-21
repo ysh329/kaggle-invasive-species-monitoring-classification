@@ -1,0 +1,215 @@
+[03:15:25] src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.8.0. Attempting to upgrade...
+[03:15:25] src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+note: caffe model don't have 'flatten0', but 'flatten_0'
+[03:15:27] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_train.rec, use 4 threads for decoding..
+[03:15:28] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_val.rec, use 4 threads for decoding..
+2017-07-21 03:15:33,419 Epoch[0] Batch [10]	Speed: 637.70 samples/sec	Train-accuracy=0.500000
+2017-07-21 03:15:34,360 Epoch[0] Batch [20]	Speed: 638.43 samples/sec	Train-accuracy=0.525000
+2017-07-21 03:15:35,297 Epoch[0] Batch [30]	Speed: 640.25 samples/sec	Train-accuracy=0.613333
+2017-07-21 03:15:35,860 Epoch[0] Train-accuracy=0.638889
+2017-07-21 03:15:35,860 Epoch[0] Time cost=4.706
+2017-07-21 03:15:35,937 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0001.params"
+2017-07-21 03:15:36,143 Epoch[0] Validation-accuracy=0.650000
+2017-07-21 03:15:37,162 Epoch[1] Batch [10]	Speed: 638.79 samples/sec	Train-accuracy=0.645455
+2017-07-21 03:15:38,098 Epoch[1] Batch [20]	Speed: 640.94 samples/sec	Train-accuracy=0.633333
+2017-07-21 03:15:39,037 Epoch[1] Batch [30]	Speed: 639.79 samples/sec	Train-accuracy=0.606667
+2017-07-21 03:15:39,511 Epoch[1] Train-accuracy=0.633333
+2017-07-21 03:15:39,511 Epoch[1] Time cost=3.368
+2017-07-21 03:15:39,586 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0002.params"
+2017-07-21 03:15:39,920 Epoch[1] Validation-accuracy=0.650000
+2017-07-21 03:15:40,951 Epoch[2] Batch [10]	Speed: 636.96 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:15:41,904 Epoch[2] Batch [20]	Speed: 630.39 samples/sec	Train-accuracy=0.631667
+2017-07-21 03:15:42,838 Epoch[2] Batch [30]	Speed: 642.85 samples/sec	Train-accuracy=0.625000
+2017-07-21 03:15:43,307 Epoch[2] Train-accuracy=0.620000
+2017-07-21 03:15:43,308 Epoch[2] Time cost=3.387
+2017-07-21 03:15:43,383 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0003.params"
+2017-07-21 03:15:43,564 Epoch[2] Validation-accuracy=0.641667
+2017-07-21 03:15:44,745 Epoch[3] Batch [10]	Speed: 637.42 samples/sec	Train-accuracy=0.640909
+2017-07-21 03:15:45,688 Epoch[3] Batch [20]	Speed: 636.60 samples/sec	Train-accuracy=0.633333
+2017-07-21 03:15:46,630 Epoch[3] Batch [30]	Speed: 637.22 samples/sec	Train-accuracy=0.616667
+2017-07-21 03:15:47,192 Epoch[3] Train-accuracy=0.622222
+2017-07-21 03:15:47,192 Epoch[3] Time cost=3.628
+2017-07-21 03:15:47,268 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0004.params"
+2017-07-21 03:15:47,458 Epoch[3] Validation-accuracy=0.633333
+2017-07-21 03:15:48,479 Epoch[4] Batch [10]	Speed: 638.41 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:15:49,419 Epoch[4] Batch [20]	Speed: 638.98 samples/sec	Train-accuracy=0.651667
+2017-07-21 03:15:50,352 Epoch[4] Batch [30]	Speed: 643.27 samples/sec	Train-accuracy=0.603333
+2017-07-21 03:15:50,820 Epoch[4] Train-accuracy=0.653333
+2017-07-21 03:15:50,820 Epoch[4] Time cost=3.362
+2017-07-21 03:15:50,895 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0005.params"
+2017-07-21 03:15:51,097 Epoch[4] Validation-accuracy=0.650000
+2017-07-21 03:15:52,121 Epoch[5] Batch [10]	Speed: 637.54 samples/sec	Train-accuracy=0.631818
+2017-07-21 03:15:53,059 Epoch[5] Batch [20]	Speed: 639.58 samples/sec	Train-accuracy=0.646667
+2017-07-21 03:15:53,996 Epoch[5] Batch [30]	Speed: 640.99 samples/sec	Train-accuracy=0.596667
+2017-07-21 03:15:54,462 Epoch[5] Train-accuracy=0.640000
+2017-07-21 03:15:54,463 Epoch[5] Time cost=3.366
+2017-07-21 03:15:54,536 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0006.params"
+2017-07-21 03:15:54,720 Epoch[5] Validation-accuracy=0.650000
+2017-07-21 03:15:55,906 Epoch[6] Batch [10]	Speed: 640.11 samples/sec	Train-accuracy=0.640909
+2017-07-21 03:15:56,843 Epoch[6] Batch [20]	Speed: 640.48 samples/sec	Train-accuracy=0.631667
+2017-07-21 03:15:57,783 Epoch[6] Batch [30]	Speed: 638.17 samples/sec	Train-accuracy=0.610000
+2017-07-21 03:15:58,347 Epoch[6] Train-accuracy=0.650000
+2017-07-21 03:15:58,347 Epoch[6] Time cost=3.627
+2017-07-21 03:15:58,422 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0007.params"
+2017-07-21 03:15:58,611 Epoch[6] Validation-accuracy=0.658333
+2017-07-21 03:15:59,631 Epoch[7] Batch [10]	Speed: 639.46 samples/sec	Train-accuracy=0.636364
+2017-07-21 03:16:00,574 Epoch[7] Batch [20]	Speed: 636.46 samples/sec	Train-accuracy=0.630000
+2017-07-21 03:16:01,512 Epoch[7] Batch [30]	Speed: 640.22 samples/sec	Train-accuracy=0.626667
+2017-07-21 03:16:01,978 Epoch[7] Train-accuracy=0.636667
+2017-07-21 03:16:01,978 Epoch[7] Time cost=3.367
+2017-07-21 03:16:02,052 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0008.params"
+2017-07-21 03:16:02,232 Epoch[7] Validation-accuracy=0.641667
+2017-07-21 03:16:03,255 Epoch[8] Batch [10]	Speed: 637.96 samples/sec	Train-accuracy=0.628788
+2017-07-21 03:16:04,188 Epoch[8] Batch [20]	Speed: 643.32 samples/sec	Train-accuracy=0.635000
+2017-07-21 03:16:05,121 Epoch[8] Batch [30]	Speed: 643.72 samples/sec	Train-accuracy=0.611667
+2017-07-21 03:16:05,588 Epoch[8] Train-accuracy=0.640000
+2017-07-21 03:16:05,589 Epoch[8] Time cost=3.356
+2017-07-21 03:16:05,664 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0009.params"
+2017-07-21 03:16:05,843 Epoch[8] Validation-accuracy=0.641667
+2017-07-21 03:16:07,027 Epoch[9] Batch [10]	Speed: 639.86 samples/sec	Train-accuracy=0.642424
+2017-07-21 03:16:07,963 Epoch[9] Batch [20]	Speed: 641.28 samples/sec	Train-accuracy=0.635000
+2017-07-21 03:16:08,899 Epoch[9] Batch [30]	Speed: 641.33 samples/sec	Train-accuracy=0.603333
+2017-07-21 03:16:09,464 Epoch[9] Train-accuracy=0.633333
+2017-07-21 03:16:09,465 Epoch[9] Time cost=3.621
+2017-07-21 03:16:09,538 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0010.params"
+2017-07-21 03:16:09,719 Epoch[9] Validation-accuracy=0.625000
+2017-07-21 03:16:10,738 Epoch[10] Batch [10]	Speed: 639.58 samples/sec	Train-accuracy=0.643939
+2017-07-21 03:16:11,673 Epoch[10] Batch [20]	Speed: 642.08 samples/sec	Train-accuracy=0.641667
+2017-07-21 03:16:12,607 Epoch[10] Batch [30]	Speed: 642.68 samples/sec	Train-accuracy=0.618333
+2017-07-21 03:16:13,075 Epoch[10] Train-accuracy=0.613333
+2017-07-21 03:16:13,075 Epoch[10] Time cost=3.356
+2017-07-21 03:16:13,150 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0011.params"
+2017-07-21 03:16:13,221 Epoch[10] Validation-accuracy=0.600000
+2017-07-21 03:16:14,239 Epoch[11] Batch [10]	Speed: 639.24 samples/sec	Train-accuracy=0.631818
+2017-07-21 03:16:15,175 Epoch[11] Batch [20]	Speed: 641.62 samples/sec	Train-accuracy=0.656667
+2017-07-21 03:16:16,111 Epoch[11] Batch [30]	Speed: 641.15 samples/sec	Train-accuracy=0.595000
+2017-07-21 03:16:16,577 Epoch[11] Train-accuracy=0.646667
+2017-07-21 03:16:16,577 Epoch[11] Time cost=3.356
+2017-07-21 03:16:16,651 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0012.params"
+2017-07-21 03:16:16,901 Epoch[11] Validation-accuracy=0.658333
+2017-07-21 03:16:18,074 Epoch[12] Batch [10]	Speed: 641.84 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:16:19,011 Epoch[12] Batch [20]	Speed: 640.46 samples/sec	Train-accuracy=0.631667
+2017-07-21 03:16:19,948 Epoch[12] Batch [30]	Speed: 640.52 samples/sec	Train-accuracy=0.625000
+2017-07-21 03:16:20,510 Epoch[12] Train-accuracy=0.625000
+2017-07-21 03:16:20,510 Epoch[12] Time cost=3.609
+2017-07-21 03:16:20,585 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0013.params"
+2017-07-21 03:16:20,760 Epoch[12] Validation-accuracy=0.650000
+2017-07-21 03:16:21,776 Epoch[13] Batch [10]	Speed: 642.00 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:16:22,713 Epoch[13] Batch [20]	Speed: 641.22 samples/sec	Train-accuracy=0.631667
+2017-07-21 03:16:23,658 Epoch[13] Batch [30]	Speed: 635.15 samples/sec	Train-accuracy=0.626667
+2017-07-21 03:16:24,128 Epoch[13] Train-accuracy=0.616667
+2017-07-21 03:16:24,128 Epoch[13] Time cost=3.368
+2017-07-21 03:16:24,203 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0014.params"
+2017-07-21 03:16:24,378 Epoch[13] Validation-accuracy=0.650000
+2017-07-21 03:16:25,397 Epoch[14] Batch [10]	Speed: 641.09 samples/sec	Train-accuracy=0.630303
+2017-07-21 03:16:26,333 Epoch[14] Batch [20]	Speed: 641.16 samples/sec	Train-accuracy=0.638333
+2017-07-21 03:16:27,269 Epoch[14] Batch [30]	Speed: 641.72 samples/sec	Train-accuracy=0.621667
+2017-07-21 03:16:27,738 Epoch[14] Train-accuracy=0.630000
+2017-07-21 03:16:27,738 Epoch[14] Time cost=3.360
+2017-07-21 03:16:27,810 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0015.params"
+2017-07-21 03:16:27,988 Epoch[14] Validation-accuracy=0.641667
+2017-07-21 03:16:29,161 Epoch[15] Batch [10]	Speed: 640.59 samples/sec	Train-accuracy=0.639394
+2017-07-21 03:16:30,100 Epoch[15] Batch [20]	Speed: 639.55 samples/sec	Train-accuracy=0.631667
+2017-07-21 03:16:31,035 Epoch[15] Batch [30]	Speed: 641.64 samples/sec	Train-accuracy=0.621667
+2017-07-21 03:16:31,597 Epoch[15] Train-accuracy=0.630556
+2017-07-21 03:16:31,598 Epoch[15] Time cost=3.609
+2017-07-21 03:16:31,673 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0016.params"
+2017-07-21 03:16:31,852 Epoch[15] Validation-accuracy=0.633333
+2017-07-21 03:16:32,873 Epoch[16] Batch [10]	Speed: 638.53 samples/sec	Train-accuracy=0.640909
+2017-07-21 03:16:33,809 Epoch[16] Batch [20]	Speed: 641.47 samples/sec	Train-accuracy=0.630000
+2017-07-21 03:16:34,745 Epoch[16] Batch [30]	Speed: 641.52 samples/sec	Train-accuracy=0.621667
+2017-07-21 03:16:35,214 Epoch[16] Train-accuracy=0.620000
+2017-07-21 03:16:35,214 Epoch[16] Time cost=3.362
+2017-07-21 03:16:35,289 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0017.params"
+2017-07-21 03:16:35,465 Epoch[16] Validation-accuracy=0.650000
+2017-07-21 03:16:36,486 Epoch[17] Batch [10]	Speed: 639.70 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:16:37,423 Epoch[17] Batch [20]	Speed: 640.94 samples/sec	Train-accuracy=0.633333
+2017-07-21 03:16:38,357 Epoch[17] Batch [30]	Speed: 642.50 samples/sec	Train-accuracy=0.610000
+2017-07-21 03:16:38,825 Epoch[17] Train-accuracy=0.646667
+2017-07-21 03:16:38,825 Epoch[17] Time cost=3.360
+2017-07-21 03:16:38,900 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0018.params"
+2017-07-21 03:16:39,087 Epoch[17] Validation-accuracy=0.650000
+2017-07-21 03:16:40,279 Epoch[18] Batch [10]	Speed: 633.67 samples/sec	Train-accuracy=0.643939
+2017-07-21 03:16:41,220 Epoch[18] Batch [20]	Speed: 637.54 samples/sec	Train-accuracy=0.638333
+2017-07-21 03:16:42,155 Epoch[18] Batch [30]	Speed: 641.88 samples/sec	Train-accuracy=0.605000
+2017-07-21 03:16:42,719 Epoch[18] Train-accuracy=0.633333
+2017-07-21 03:16:42,720 Epoch[18] Time cost=3.633
+2017-07-21 03:16:42,795 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0019.params"
+2017-07-21 03:16:42,976 Epoch[18] Validation-accuracy=0.658333
+2017-07-21 03:16:43,994 Epoch[19] Batch [10]	Speed: 639.14 samples/sec	Train-accuracy=0.631818
+2017-07-21 03:16:44,932 Epoch[19] Batch [20]	Speed: 640.19 samples/sec	Train-accuracy=0.646667
+2017-07-21 03:16:45,865 Epoch[19] Batch [30]	Speed: 643.27 samples/sec	Train-accuracy=0.608333
+2017-07-21 03:16:46,332 Epoch[19] Train-accuracy=0.646667
+2017-07-21 03:16:46,332 Epoch[19] Time cost=3.355
+2017-07-21 03:16:46,406 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0020.params"
+2017-07-21 03:16:46,583 Epoch[19] Validation-accuracy=0.641667
+2017-07-21 03:16:47,601 Epoch[20] Batch [10]	Speed: 640.86 samples/sec	Train-accuracy=0.633333
+2017-07-21 03:16:48,537 Epoch[20] Batch [20]	Speed: 641.71 samples/sec	Train-accuracy=0.633333
+2017-07-21 03:16:49,471 Epoch[20] Batch [30]	Speed: 642.15 samples/sec	Train-accuracy=0.620000
+2017-07-21 03:16:49,939 Epoch[20] Train-accuracy=0.630000
+2017-07-21 03:16:49,939 Epoch[20] Time cost=3.356
+2017-07-21 03:16:50,013 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0021.params"
+2017-07-21 03:16:50,191 Epoch[20] Validation-accuracy=0.641667
+2017-07-21 03:16:51,367 Epoch[21] Batch [10]	Speed: 639.68 samples/sec	Train-accuracy=0.631818
+2017-07-21 03:16:52,303 Epoch[21] Batch [20]	Speed: 640.91 samples/sec	Train-accuracy=0.640000
+2017-07-21 03:16:53,240 Epoch[21] Batch [30]	Speed: 640.58 samples/sec	Train-accuracy=0.630000
+2017-07-21 03:16:53,804 Epoch[21] Train-accuracy=0.605556
+2017-07-21 03:16:53,804 Epoch[21] Time cost=3.613
+2017-07-21 03:16:53,877 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0022.params"
+2017-07-21 03:16:54,052 Epoch[21] Validation-accuracy=0.625000
+2017-07-21 03:16:55,071 Epoch[22] Batch [10]	Speed: 639.08 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:16:56,004 Epoch[22] Batch [20]	Speed: 643.58 samples/sec	Train-accuracy=0.645000
+2017-07-21 03:16:56,943 Epoch[22] Batch [30]	Speed: 639.48 samples/sec	Train-accuracy=0.608333
+2017-07-21 03:16:57,409 Epoch[22] Train-accuracy=0.640000
+2017-07-21 03:16:57,409 Epoch[22] Time cost=3.357
+2017-07-21 03:16:57,484 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0023.params"
+2017-07-21 03:16:57,567 Epoch[22] Validation-accuracy=0.600000
+2017-07-21 03:16:58,577 Epoch[23] Batch [10]	Speed: 639.54 samples/sec	Train-accuracy=0.630303
+2017-07-21 03:16:59,514 Epoch[23] Batch [20]	Speed: 640.61 samples/sec	Train-accuracy=0.646667
+2017-07-21 03:17:00,449 Epoch[23] Batch [30]	Speed: 642.30 samples/sec	Train-accuracy=0.620000
+2017-07-21 03:17:00,918 Epoch[23] Train-accuracy=0.613333
+2017-07-21 03:17:00,918 Epoch[23] Time cost=3.351
+2017-07-21 03:17:00,992 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0024.params"
+2017-07-21 03:17:01,238 Epoch[23] Validation-accuracy=0.658333
+2017-07-21 03:17:02,413 Epoch[24] Batch [10]	Speed: 641.51 samples/sec	Train-accuracy=0.639394
+2017-07-21 03:17:03,348 Epoch[24] Batch [20]	Speed: 642.05 samples/sec	Train-accuracy=0.628333
+2017-07-21 03:17:04,290 Epoch[24] Batch [30]	Speed: 637.11 samples/sec	Train-accuracy=0.626667
+2017-07-21 03:17:04,855 Epoch[24] Train-accuracy=0.622222
+2017-07-21 03:17:04,856 Epoch[24] Time cost=3.618
+2017-07-21 03:17:04,930 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0025.params"
+2017-07-21 03:17:05,113 Epoch[24] Validation-accuracy=0.650000
+2017-07-21 03:17:06,135 Epoch[25] Batch [10]	Speed: 639.71 samples/sec	Train-accuracy=0.637879
+2017-07-21 03:17:07,069 Epoch[25] Batch [20]	Speed: 642.97 samples/sec	Train-accuracy=0.636667
+2017-07-21 03:17:08,004 Epoch[25] Batch [30]	Speed: 641.51 samples/sec	Train-accuracy=0.605000
+2017-07-21 03:17:08,472 Epoch[25] Train-accuracy=0.653333
+2017-07-21 03:17:08,473 Epoch[25] Time cost=3.359
+2017-07-21 03:17:08,546 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0026.params"
+2017-07-21 03:17:08,732 Epoch[25] Validation-accuracy=0.650000
+2017-07-21 03:17:09,752 Epoch[26] Batch [10]	Speed: 640.07 samples/sec	Train-accuracy=0.640909
+2017-07-21 03:17:10,688 Epoch[26] Batch [20]	Speed: 641.08 samples/sec	Train-accuracy=0.630000
+2017-07-21 03:17:11,623 Epoch[26] Batch [30]	Speed: 642.22 samples/sec	Train-accuracy=0.621667
+2017-07-21 03:17:12,091 Epoch[26] Train-accuracy=0.623333
+2017-07-21 03:17:12,091 Epoch[26] Time cost=3.358
+2017-07-21 03:17:12,165 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0027.params"
+2017-07-21 03:17:12,340 Epoch[26] Validation-accuracy=0.641667
+2017-07-21 03:17:13,513 Epoch[27] Batch [10]	Speed: 640.08 samples/sec	Train-accuracy=0.628788
+2017-07-21 03:17:14,450 Epoch[27] Batch [20]	Speed: 640.38 samples/sec	Train-accuracy=0.656667
+2017-07-21 03:17:15,388 Epoch[27] Batch [30]	Speed: 640.02 samples/sec	Train-accuracy=0.605000
+2017-07-21 03:17:15,953 Epoch[27] Train-accuracy=0.625000
+2017-07-21 03:17:15,953 Epoch[27] Time cost=3.613
+2017-07-21 03:17:16,027 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0028.params"
+2017-07-21 03:17:16,207 Epoch[27] Validation-accuracy=0.633333
+2017-07-21 03:17:17,225 Epoch[28] Batch [10]	Speed: 641.44 samples/sec	Train-accuracy=0.650000
+2017-07-21 03:17:18,162 Epoch[28] Batch [20]	Speed: 640.96 samples/sec	Train-accuracy=0.615000
+2017-07-21 03:17:19,095 Epoch[28] Batch [30]	Speed: 643.22 samples/sec	Train-accuracy=0.646667
+2017-07-21 03:17:19,561 Epoch[28] Train-accuracy=0.596667
+2017-07-21 03:17:19,561 Epoch[28] Time cost=3.353
+2017-07-21 03:17:19,635 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0029.params"
+2017-07-21 03:17:19,815 Epoch[28] Validation-accuracy=0.650000
+2017-07-21 03:17:20,831 Epoch[29] Batch [10]	Speed: 641.95 samples/sec	Train-accuracy=0.634848
+2017-07-21 03:17:21,764 Epoch[29] Batch [20]	Speed: 642.92 samples/sec	Train-accuracy=0.638333
+2017-07-21 03:17:22,697 Epoch[29] Batch [30]	Speed: 643.34 samples/sec	Train-accuracy=0.625000
+2017-07-21 03:17:23,164 Epoch[29] Train-accuracy=0.610000
+2017-07-21 03:17:23,164 Epoch[29] Time cost=3.349
+2017-07-21 03:17:23,238 Saved checkpoint to "../../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001-0030.params"
+2017-07-21 03:17:23,417 Epoch[29] Validation-accuracy=0.650000

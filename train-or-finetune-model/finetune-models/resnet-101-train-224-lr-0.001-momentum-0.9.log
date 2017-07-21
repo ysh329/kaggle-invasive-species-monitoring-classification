@@ -1,0 +1,219 @@
+[03:30:47] src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.8.0. Attempting to upgrade...
+[03:30:47] src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+[03:30:47] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_train.rec, use 4 threads for decoding..
+[03:30:47] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_val.rec, use 4 threads for decoding..
+[03:30:51] src/operator/./cudnn_convolution-inl.h:55: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[03:30:57] src/kvstore/././comm.h:304: only 2 out of 6 GPU pairs are enabled direct access. It may affect the performance. You can set MXNET_ENABLE_GPU_P2P=0 to turn it off
+[03:30:57] src/kvstore/././comm.h:313: ...
+[03:30:57] src/kvstore/././comm.h:313: ..v
+[03:30:57] src/kvstore/././comm.h:313: .v.
+2017-07-18 03:31:11,268 Epoch[0] Batch [10]	Speed: 51.02 samples/sec	Train-accuracy=0.645455
+2017-07-18 03:31:23,831 Epoch[0] Batch [20]	Speed: 47.77 samples/sec	Train-accuracy=0.808333
+2017-07-18 03:31:36,385 Epoch[0] Batch [30]	Speed: 47.79 samples/sec	Train-accuracy=0.895000
+2017-07-18 03:31:43,915 Epoch[0] Train-accuracy=0.888889
+2017-07-18 03:31:43,916 Epoch[0] Time cost=47.076
+2017-07-18 03:31:44,924 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0001.params"
+2017-07-18 03:31:45,790 Epoch[0] Validation-accuracy=0.858333
+2017-07-18 03:31:58,824 Epoch[1] Batch [10]	Speed: 47.78 samples/sec	Train-accuracy=0.930303
+2017-07-18 03:32:11,391 Epoch[1] Batch [20]	Speed: 47.75 samples/sec	Train-accuracy=0.925000
+2017-07-18 03:32:23,957 Epoch[1] Batch [30]	Speed: 47.75 samples/sec	Train-accuracy=0.940000
+2017-07-18 03:32:30,242 Epoch[1] Train-accuracy=0.943333
+2017-07-18 03:32:30,243 Epoch[1] Time cost=44.452
+2017-07-18 03:32:31,242 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0002.params"
+2017-07-18 03:32:32,120 Epoch[1] Validation-accuracy=0.925000
+2017-07-18 03:32:45,145 Epoch[2] Batch [10]	Speed: 47.81 samples/sec	Train-accuracy=0.948485
+2017-07-18 03:32:57,725 Epoch[2] Batch [20]	Speed: 47.70 samples/sec	Train-accuracy=0.955000
+2017-07-18 03:33:10,299 Epoch[2] Batch [30]	Speed: 47.72 samples/sec	Train-accuracy=0.961667
+2017-07-18 03:33:16,582 Epoch[2] Train-accuracy=0.956667
+2017-07-18 03:33:16,582 Epoch[2] Time cost=44.462
+2017-07-18 03:33:17,567 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0003.params"
+2017-07-18 03:33:18,436 Epoch[2] Validation-accuracy=0.933333
+2017-07-18 03:33:31,635 Epoch[3] Batch [10]	Speed: 47.76 samples/sec	Train-accuracy=0.953030
+2017-07-18 03:33:44,201 Epoch[3] Batch [20]	Speed: 47.75 samples/sec	Train-accuracy=0.970000
+2017-07-18 03:33:56,772 Epoch[3] Batch [30]	Speed: 47.73 samples/sec	Train-accuracy=0.973333
+2017-07-18 03:34:04,305 Epoch[3] Train-accuracy=0.963889
+2017-07-18 03:34:04,305 Epoch[3] Time cost=45.869
+2017-07-18 03:34:05,302 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0004.params"
+2017-07-18 03:34:06,170 Epoch[3] Validation-accuracy=0.925000
+2017-07-18 03:34:19,218 Epoch[4] Batch [10]	Speed: 47.74 samples/sec	Train-accuracy=0.960606
+2017-07-18 03:34:31,783 Epoch[4] Batch [20]	Speed: 47.75 samples/sec	Train-accuracy=0.968333
+2017-07-18 03:34:44,336 Epoch[4] Batch [30]	Speed: 47.80 samples/sec	Train-accuracy=0.973333
+2017-07-18 03:34:50,618 Epoch[4] Train-accuracy=0.966667
+2017-07-18 03:34:50,619 Epoch[4] Time cost=44.448
+2017-07-18 03:34:51,611 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0005.params"
+2017-07-18 03:34:52,479 Epoch[4] Validation-accuracy=0.925000
+2017-07-18 03:35:05,497 Epoch[5] Batch [10]	Speed: 47.84 samples/sec	Train-accuracy=0.984848
+2017-07-18 03:35:18,057 Epoch[5] Batch [20]	Speed: 47.77 samples/sec	Train-accuracy=0.981667
+2017-07-18 03:35:30,627 Epoch[5] Batch [30]	Speed: 47.73 samples/sec	Train-accuracy=0.983333
+2017-07-18 03:35:36,910 Epoch[5] Train-accuracy=0.980000
+2017-07-18 03:35:36,910 Epoch[5] Time cost=44.431
+2017-07-18 03:35:37,894 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0006.params"
+2017-07-18 03:35:38,755 Epoch[5] Validation-accuracy=0.941667
+2017-07-18 03:35:51,966 Epoch[6] Batch [10]	Speed: 47.73 samples/sec	Train-accuracy=0.984848
+2017-07-18 03:36:04,518 Epoch[6] Batch [20]	Speed: 47.80 samples/sec	Train-accuracy=0.983333
+2017-07-18 03:36:17,076 Epoch[6] Batch [30]	Speed: 47.78 samples/sec	Train-accuracy=0.988333
+2017-07-18 03:36:24,614 Epoch[6] Train-accuracy=0.972222
+2017-07-18 03:36:24,614 Epoch[6] Time cost=45.859
+2017-07-18 03:36:25,597 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0007.params"
+2017-07-18 03:36:26,463 Epoch[6] Validation-accuracy=0.941667
+2017-07-18 03:36:39,512 Epoch[7] Batch [10]	Speed: 47.73 samples/sec	Train-accuracy=0.981818
+2017-07-18 03:36:52,072 Epoch[7] Batch [20]	Speed: 47.77 samples/sec	Train-accuracy=0.988333
+2017-07-18 03:37:04,632 Epoch[7] Batch [30]	Speed: 47.77 samples/sec	Train-accuracy=0.985000
+2017-07-18 03:37:10,917 Epoch[7] Train-accuracy=0.976667
+2017-07-18 03:37:10,917 Epoch[7] Time cost=44.453
+2017-07-18 03:37:11,909 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0008.params"
+2017-07-18 03:37:12,771 Epoch[7] Validation-accuracy=0.933333
+2017-07-18 03:37:25,809 Epoch[8] Batch [10]	Speed: 47.77 samples/sec	Train-accuracy=0.984848
+2017-07-18 03:37:38,368 Epoch[8] Batch [20]	Speed: 47.78 samples/sec	Train-accuracy=0.986667
+2017-07-18 03:37:50,931 Epoch[8] Batch [30]	Speed: 47.76 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:37:57,211 Epoch[8] Train-accuracy=0.993333
+2017-07-18 03:37:57,212 Epoch[8] Time cost=44.440
+2017-07-18 03:37:58,214 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0009.params"
+2017-07-18 03:37:59,081 Epoch[8] Validation-accuracy=0.941667
+2017-07-18 03:38:12,287 Epoch[9] Batch [10]	Speed: 47.74 samples/sec	Train-accuracy=0.987879
+2017-07-18 03:38:24,858 Epoch[9] Batch [20]	Speed: 47.73 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:38:37,412 Epoch[9] Batch [30]	Speed: 47.80 samples/sec	Train-accuracy=0.991667
+2017-07-18 03:38:44,946 Epoch[9] Train-accuracy=0.994444
+2017-07-18 03:38:44,946 Epoch[9] Time cost=45.865
+2017-07-18 03:38:45,939 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0010.params"
+2017-07-18 03:38:46,806 Epoch[9] Validation-accuracy=0.958333
+2017-07-18 03:38:59,835 Epoch[10] Batch [10]	Speed: 47.81 samples/sec	Train-accuracy=0.993939
+2017-07-18 03:39:12,392 Epoch[10] Batch [20]	Speed: 47.79 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:39:24,956 Epoch[10] Batch [30]	Speed: 47.76 samples/sec	Train-accuracy=0.990000
+2017-07-18 03:39:31,241 Epoch[10] Train-accuracy=0.990000
+2017-07-18 03:39:31,241 Epoch[10] Time cost=44.435
+2017-07-18 03:39:32,229 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0011.params"
+2017-07-18 03:39:32,676 Epoch[10] Validation-accuracy=0.966667
+2017-07-18 03:39:45,733 Epoch[11] Batch [10]	Speed: 47.70 samples/sec	Train-accuracy=0.993939
+2017-07-18 03:39:58,302 Epoch[11] Batch [20]	Speed: 47.74 samples/sec	Train-accuracy=0.995000
+2017-07-18 03:40:10,877 Epoch[11] Batch [30]	Speed: 47.71 samples/sec	Train-accuracy=0.990000
+2017-07-18 03:40:17,157 Epoch[11] Train-accuracy=0.996667
+2017-07-18 03:40:17,157 Epoch[11] Time cost=44.481
+2017-07-18 03:40:18,182 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0012.params"
+2017-07-18 03:40:19,125 Epoch[11] Validation-accuracy=0.950000
+2017-07-18 03:40:32,352 Epoch[12] Batch [10]	Speed: 47.70 samples/sec	Train-accuracy=0.993939
+2017-07-18 03:40:44,939 Epoch[12] Batch [20]	Speed: 47.67 samples/sec	Train-accuracy=0.995000
+2017-07-18 03:40:57,529 Epoch[12] Batch [30]	Speed: 47.66 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:41:05,084 Epoch[12] Train-accuracy=0.994444
+2017-07-18 03:41:05,084 Epoch[12] Time cost=45.959
+2017-07-18 03:41:06,075 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0013.params"
+2017-07-18 03:41:06,941 Epoch[12] Validation-accuracy=0.966667
+2017-07-18 03:41:19,980 Epoch[13] Batch [10]	Speed: 47.76 samples/sec	Train-accuracy=0.996970
+2017-07-18 03:41:32,555 Epoch[13] Batch [20]	Speed: 47.72 samples/sec	Train-accuracy=0.995000
+2017-07-18 03:41:45,140 Epoch[13] Batch [30]	Speed: 47.68 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:41:51,441 Epoch[13] Train-accuracy=0.993333
+2017-07-18 03:41:51,441 Epoch[13] Time cost=44.500
+2017-07-18 03:41:52,422 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0014.params"
+2017-07-18 03:41:53,290 Epoch[13] Validation-accuracy=0.966667
+2017-07-18 03:42:06,339 Epoch[14] Batch [10]	Speed: 47.74 samples/sec	Train-accuracy=0.996970
+2017-07-18 03:42:18,909 Epoch[14] Batch [20]	Speed: 47.73 samples/sec	Train-accuracy=0.986667
+2017-07-18 03:42:31,478 Epoch[14] Batch [30]	Speed: 47.74 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:42:37,760 Epoch[14] Train-accuracy=1.000000
+2017-07-18 03:42:37,760 Epoch[14] Time cost=44.470
+2017-07-18 03:42:38,749 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0015.params"
+2017-07-18 03:42:39,615 Epoch[14] Validation-accuracy=0.966667
+2017-07-18 03:42:52,821 Epoch[15] Batch [10]	Speed: 47.78 samples/sec	Train-accuracy=0.998485
+2017-07-18 03:43:05,380 Epoch[15] Batch [20]	Speed: 47.78 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:43:17,945 Epoch[15] Batch [30]	Speed: 47.75 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:43:25,490 Epoch[15] Train-accuracy=0.997222
+2017-07-18 03:43:25,490 Epoch[15] Time cost=45.875
+2017-07-18 03:43:26,512 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0016.params"
+2017-07-18 03:43:27,382 Epoch[15] Validation-accuracy=0.958333
+2017-07-18 03:43:40,415 Epoch[16] Batch [10]	Speed: 47.78 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:43:52,981 Epoch[16] Batch [20]	Speed: 47.75 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:44:05,552 Epoch[16] Batch [30]	Speed: 47.73 samples/sec	Train-accuracy=0.995000
+2017-07-18 03:44:11,833 Epoch[16] Train-accuracy=0.993333
+2017-07-18 03:44:11,833 Epoch[16] Time cost=44.452
+2017-07-18 03:44:12,824 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0017.params"
+2017-07-18 03:44:13,692 Epoch[16] Validation-accuracy=0.958333
+2017-07-18 03:44:26,721 Epoch[17] Batch [10]	Speed: 47.80 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:44:39,272 Epoch[17] Batch [20]	Speed: 47.81 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:44:51,829 Epoch[17] Batch [30]	Speed: 47.78 samples/sec	Train-accuracy=0.995000
+2017-07-18 03:44:58,106 Epoch[17] Train-accuracy=1.000000
+2017-07-18 03:44:58,107 Epoch[17] Time cost=44.414
+2017-07-18 03:44:59,097 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0018.params"
+2017-07-18 03:44:59,969 Epoch[17] Validation-accuracy=0.966667
+2017-07-18 03:45:13,159 Epoch[18] Batch [10]	Speed: 47.80 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:45:25,714 Epoch[18] Batch [20]	Speed: 47.79 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:45:38,269 Epoch[18] Batch [30]	Speed: 47.79 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:45:45,800 Epoch[18] Train-accuracy=0.997222
+2017-07-18 03:45:45,800 Epoch[18] Time cost=45.831
+2017-07-18 03:45:46,791 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0019.params"
+2017-07-18 03:45:47,661 Epoch[18] Validation-accuracy=0.966667
+2017-07-18 03:46:00,692 Epoch[19] Batch [10]	Speed: 47.81 samples/sec	Train-accuracy=0.998485
+2017-07-18 03:46:13,237 Epoch[19] Batch [20]	Speed: 47.83 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:46:25,784 Epoch[19] Batch [30]	Speed: 47.82 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:46:32,071 Epoch[19] Train-accuracy=0.996667
+2017-07-18 03:46:32,071 Epoch[19] Time cost=44.410
+2017-07-18 03:46:33,062 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0020.params"
+2017-07-18 03:46:33,928 Epoch[19] Validation-accuracy=0.958333
+2017-07-18 03:46:46,960 Epoch[20] Batch [10]	Speed: 47.80 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:46:59,516 Epoch[20] Batch [20]	Speed: 47.79 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:47:12,062 Epoch[20] Batch [30]	Speed: 47.82 samples/sec	Train-accuracy=0.993333
+2017-07-18 03:47:18,341 Epoch[20] Train-accuracy=0.993333
+2017-07-18 03:47:18,341 Epoch[20] Time cost=44.413
+2017-07-18 03:47:19,345 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0021.params"
+2017-07-18 03:47:20,212 Epoch[20] Validation-accuracy=0.966667
+2017-07-18 03:47:33,408 Epoch[21] Batch [10]	Speed: 47.80 samples/sec	Train-accuracy=0.996970
+2017-07-18 03:47:45,964 Epoch[21] Batch [20]	Speed: 47.79 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:47:58,544 Epoch[21] Batch [30]	Speed: 47.70 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:48:06,087 Epoch[21] Train-accuracy=1.000000
+2017-07-18 03:48:06,087 Epoch[21] Time cost=45.874
+2017-07-18 03:48:07,057 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0022.params"
+2017-07-18 03:48:07,926 Epoch[21] Validation-accuracy=0.966667
+2017-07-18 03:48:20,961 Epoch[22] Batch [10]	Speed: 47.79 samples/sec	Train-accuracy=0.996970
+2017-07-18 03:48:33,508 Epoch[22] Batch [20]	Speed: 47.82 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:48:46,065 Epoch[22] Batch [30]	Speed: 47.78 samples/sec	Train-accuracy=0.993333
+2017-07-18 03:48:52,343 Epoch[22] Train-accuracy=1.000000
+2017-07-18 03:48:52,343 Epoch[22] Time cost=44.417
+2017-07-18 03:48:53,342 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0023.params"
+2017-07-18 03:48:53,791 Epoch[22] Validation-accuracy=0.983333
+2017-07-18 03:49:06,833 Epoch[23] Batch [10]	Speed: 47.74 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:49:19,397 Epoch[23] Batch [20]	Speed: 47.76 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:49:31,954 Epoch[23] Batch [30]	Speed: 47.78 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:49:38,228 Epoch[23] Train-accuracy=0.996667
+2017-07-18 03:49:38,228 Epoch[23] Time cost=44.436
+2017-07-18 03:49:39,231 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0024.params"
+2017-07-18 03:49:40,180 Epoch[23] Validation-accuracy=0.966667
+2017-07-18 03:49:53,379 Epoch[24] Batch [10]	Speed: 47.77 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:50:05,951 Epoch[24] Batch [20]	Speed: 47.73 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:50:18,512 Epoch[24] Batch [30]	Speed: 47.77 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:50:26,052 Epoch[24] Train-accuracy=0.994444
+2017-07-18 03:50:26,052 Epoch[24] Time cost=45.872
+2017-07-18 03:50:27,071 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0025.params"
+2017-07-18 03:50:27,935 Epoch[24] Validation-accuracy=0.966667
+2017-07-18 03:50:40,967 Epoch[25] Batch [10]	Speed: 47.80 samples/sec	Train-accuracy=0.993939
+2017-07-18 03:50:53,528 Epoch[25] Batch [20]	Speed: 47.77 samples/sec	Train-accuracy=0.993333
+2017-07-18 03:51:06,083 Epoch[25] Batch [30]	Speed: 47.79 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:51:12,362 Epoch[25] Train-accuracy=1.000000
+2017-07-18 03:51:12,362 Epoch[25] Time cost=44.426
+2017-07-18 03:51:13,376 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0026.params"
+2017-07-18 03:51:14,239 Epoch[25] Validation-accuracy=0.966667
+2017-07-18 03:51:27,286 Epoch[26] Batch [10]	Speed: 47.75 samples/sec	Train-accuracy=0.996970
+2017-07-18 03:51:39,836 Epoch[26] Batch [20]	Speed: 47.81 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:51:52,402 Epoch[26] Batch [30]	Speed: 47.75 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:51:58,687 Epoch[26] Train-accuracy=0.993333
+2017-07-18 03:51:58,687 Epoch[26] Time cost=44.447
+2017-07-18 03:51:59,706 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0027.params"
+2017-07-18 03:52:00,571 Epoch[26] Validation-accuracy=0.966667
+2017-07-18 03:52:13,776 Epoch[27] Batch [10]	Speed: 47.83 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:52:26,335 Epoch[27] Batch [20]	Speed: 47.78 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:52:38,903 Epoch[27] Batch [30]	Speed: 47.74 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:52:46,433 Epoch[27] Train-accuracy=1.000000
+2017-07-18 03:52:46,434 Epoch[27] Time cost=45.862
+2017-07-18 03:52:47,430 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0028.params"
+2017-07-18 03:52:48,295 Epoch[27] Validation-accuracy=0.958333
+2017-07-18 03:53:01,339 Epoch[28] Batch [10]	Speed: 47.74 samples/sec	Train-accuracy=0.998485
+2017-07-18 03:53:13,901 Epoch[28] Batch [20]	Speed: 47.77 samples/sec	Train-accuracy=0.995000
+2017-07-18 03:53:26,460 Epoch[28] Batch [30]	Speed: 47.78 samples/sec	Train-accuracy=0.998333
+2017-07-18 03:53:32,737 Epoch[28] Train-accuracy=0.996667
+2017-07-18 03:53:32,737 Epoch[28] Time cost=44.442
+2017-07-18 03:53:33,738 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0029.params"
+2017-07-18 03:53:34,598 Epoch[28] Validation-accuracy=0.958333
+2017-07-18 03:53:47,623 Epoch[29] Batch [10]	Speed: 47.81 samples/sec	Train-accuracy=0.998485
+2017-07-18 03:54:00,175 Epoch[29] Batch [20]	Speed: 47.81 samples/sec	Train-accuracy=1.000000
+2017-07-18 03:54:12,743 Epoch[29] Batch [30]	Speed: 47.74 samples/sec	Train-accuracy=0.996667
+2017-07-18 03:54:19,024 Epoch[29] Train-accuracy=0.996667
+2017-07-18 03:54:19,024 Epoch[29] Time cost=44.426
+2017-07-18 03:54:20,027 Saved checkpoint to "../../models/pretrained-models/resnet-101/resnet-101-train-224-lr-0.01-0030.params"
+2017-07-18 03:54:20,893 Epoch[29] Validation-accuracy=0.966667

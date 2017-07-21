@@ -1,0 +1,215 @@
+[02:33:08] src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.8.0. Attempting to upgrade...
+[02:33:08] src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+note: caffe model don't have 'flatten0', but 'flatten_0'
+[02:33:08] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_train.rec, use 4 threads for decoding..
+[02:33:08] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_val.rec, use 4 threads for decoding..
+2017-07-21 02:33:37,384 Epoch[0] Batch [10]	Speed: 30.54 samples/sec	Train-accuracy=0.450000
+2017-07-21 02:33:57,034 Epoch[0] Batch [20]	Speed: 30.54 samples/sec	Train-accuracy=0.578333
+2017-07-21 02:34:16,687 Epoch[0] Batch [30]	Speed: 30.53 samples/sec	Train-accuracy=0.500000
+2017-07-21 02:34:28,554 Epoch[0] Train-accuracy=0.522222
+2017-07-21 02:34:28,554 Epoch[0] Time cost=73.362
+2017-07-21 02:34:30,206 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0001.params"
+2017-07-21 02:34:31,414 Epoch[0] Validation-accuracy=0.650000
+2017-07-21 02:34:51,661 Epoch[1] Batch [10]	Speed: 30.58 samples/sec	Train-accuracy=0.515152
+2017-07-21 02:35:11,310 Epoch[1] Batch [20]	Speed: 30.54 samples/sec	Train-accuracy=0.526667
+2017-07-21 02:35:30,888 Epoch[1] Batch [30]	Speed: 30.65 samples/sec	Train-accuracy=0.543333
+2017-07-21 02:35:40,671 Epoch[1] Train-accuracy=0.366667
+2017-07-21 02:35:40,671 Epoch[1] Time cost=69.257
+2017-07-21 02:35:42,134 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0002.params"
+2017-07-21 02:35:43,483 Epoch[1] Validation-accuracy=0.650000
+2017-07-21 02:36:03,696 Epoch[2] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.583333
+2017-07-21 02:36:23,264 Epoch[2] Batch [20]	Speed: 30.66 samples/sec	Train-accuracy=0.531667
+2017-07-21 02:36:42,843 Epoch[2] Batch [30]	Speed: 30.65 samples/sec	Train-accuracy=0.511667
+2017-07-21 02:36:52,633 Epoch[2] Train-accuracy=0.553333
+2017-07-21 02:36:52,634 Epoch[2] Time cost=69.150
+2017-07-21 02:36:54,078 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0003.params"
+2017-07-21 02:36:55,236 Epoch[2] Validation-accuracy=0.358333
+2017-07-21 02:37:15,569 Epoch[3] Batch [10]	Speed: 30.65 samples/sec	Train-accuracy=0.571212
+2017-07-21 02:37:35,186 Epoch[3] Batch [20]	Speed: 30.59 samples/sec	Train-accuracy=0.536667
+2017-07-21 02:37:54,787 Epoch[3] Batch [30]	Speed: 30.61 samples/sec	Train-accuracy=0.546667
+2017-07-21 02:38:06,552 Epoch[3] Train-accuracy=0.527778
+2017-07-21 02:38:06,552 Epoch[3] Time cost=71.315
+2017-07-21 02:38:07,998 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0004.params"
+2017-07-21 02:38:09,166 Epoch[3] Validation-accuracy=0.366667
+2017-07-21 02:38:29,339 Epoch[4] Batch [10]	Speed: 30.66 samples/sec	Train-accuracy=0.510606
+2017-07-21 02:38:48,913 Epoch[4] Batch [20]	Speed: 30.65 samples/sec	Train-accuracy=0.595000
+2017-07-21 02:39:08,507 Epoch[4] Batch [30]	Speed: 30.62 samples/sec	Train-accuracy=0.510000
+2017-07-21 02:39:18,292 Epoch[4] Train-accuracy=0.526667
+2017-07-21 02:39:18,292 Epoch[4] Time cost=69.126
+2017-07-21 02:39:19,741 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0005.params"
+2017-07-21 02:39:20,906 Epoch[4] Validation-accuracy=0.650000
+2017-07-21 02:39:41,097 Epoch[5] Batch [10]	Speed: 30.63 samples/sec	Train-accuracy=0.562121
+2017-07-21 02:40:00,654 Epoch[5] Batch [20]	Speed: 30.68 samples/sec	Train-accuracy=0.586667
+2017-07-21 02:40:20,225 Epoch[5] Batch [30]	Speed: 30.66 samples/sec	Train-accuracy=0.540000
+2017-07-21 02:40:30,005 Epoch[5] Train-accuracy=0.513333
+2017-07-21 02:40:30,005 Epoch[5] Time cost=69.099
+2017-07-21 02:40:31,453 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0006.params"
+2017-07-21 02:40:32,621 Epoch[5] Validation-accuracy=0.650000
+2017-07-21 02:40:52,942 Epoch[6] Batch [10]	Speed: 30.68 samples/sec	Train-accuracy=0.583333
+2017-07-21 02:41:12,514 Epoch[6] Batch [20]	Speed: 30.66 samples/sec	Train-accuracy=0.551667
+2017-07-21 02:41:32,110 Epoch[6] Batch [30]	Speed: 30.62 samples/sec	Train-accuracy=0.580000
+2017-07-21 02:41:43,843 Epoch[6] Train-accuracy=0.533333
+2017-07-21 02:41:43,843 Epoch[6] Time cost=71.222
+2017-07-21 02:41:45,300 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0007.params"
+2017-07-21 02:41:46,457 Epoch[6] Validation-accuracy=0.658333
+2017-07-21 02:42:06,637 Epoch[7] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.533333
+2017-07-21 02:42:26,205 Epoch[7] Batch [20]	Speed: 30.66 samples/sec	Train-accuracy=0.503333
+2017-07-21 02:42:45,797 Epoch[7] Batch [30]	Speed: 30.63 samples/sec	Train-accuracy=0.516667
+2017-07-21 02:42:55,596 Epoch[7] Train-accuracy=0.550000
+2017-07-21 02:42:55,596 Epoch[7] Time cost=69.139
+2017-07-21 02:42:57,055 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0008.params"
+2017-07-21 02:42:58,214 Epoch[7] Validation-accuracy=0.641667
+2017-07-21 02:43:18,410 Epoch[8] Batch [10]	Speed: 30.63 samples/sec	Train-accuracy=0.574242
+2017-07-21 02:43:37,966 Epoch[8] Batch [20]	Speed: 30.68 samples/sec	Train-accuracy=0.531667
+2017-07-21 02:43:57,549 Epoch[8] Batch [30]	Speed: 30.64 samples/sec	Train-accuracy=0.535000
+2017-07-21 02:44:07,338 Epoch[8] Train-accuracy=0.586667
+2017-07-21 02:44:07,339 Epoch[8] Time cost=69.124
+2017-07-21 02:44:08,786 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0009.params"
+2017-07-21 02:44:09,954 Epoch[8] Validation-accuracy=0.641667
+2017-07-21 02:44:30,290 Epoch[9] Batch [10]	Speed: 30.66 samples/sec	Train-accuracy=0.578788
+2017-07-21 02:44:49,892 Epoch[9] Batch [20]	Speed: 30.61 samples/sec	Train-accuracy=0.561667
+2017-07-21 02:45:09,465 Epoch[9] Batch [30]	Speed: 30.66 samples/sec	Train-accuracy=0.586667
+2017-07-21 02:45:21,212 Epoch[9] Train-accuracy=0.461111
+2017-07-21 02:45:21,212 Epoch[9] Time cost=71.258
+2017-07-21 02:45:22,662 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0010.params"
+2017-07-21 02:45:23,840 Epoch[9] Validation-accuracy=0.625000
+2017-07-21 02:45:44,054 Epoch[10] Batch [10]	Speed: 30.62 samples/sec	Train-accuracy=0.528788
+2017-07-21 02:46:03,649 Epoch[10] Batch [20]	Speed: 30.62 samples/sec	Train-accuracy=0.588333
+2017-07-21 02:46:23,240 Epoch[10] Batch [30]	Speed: 30.63 samples/sec	Train-accuracy=0.531667
+2017-07-21 02:46:33,050 Epoch[10] Train-accuracy=0.453333
+2017-07-21 02:46:33,050 Epoch[10] Time cost=69.210
+2017-07-21 02:46:34,495 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0011.params"
+2017-07-21 02:46:35,096 Epoch[10] Validation-accuracy=0.600000
+2017-07-21 02:46:55,270 Epoch[11] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.483333
+2017-07-21 02:47:14,865 Epoch[11] Batch [20]	Speed: 30.62 samples/sec	Train-accuracy=0.553333
+2017-07-21 02:47:34,469 Epoch[11] Batch [30]	Speed: 30.61 samples/sec	Train-accuracy=0.528333
+2017-07-21 02:47:44,274 Epoch[11] Train-accuracy=0.453333
+2017-07-21 02:47:44,275 Epoch[11] Time cost=69.178
+2017-07-21 02:47:45,731 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0012.params"
+2017-07-21 02:47:46,967 Epoch[11] Validation-accuracy=0.341667
+2017-07-21 02:48:07,308 Epoch[12] Batch [10]	Speed: 30.67 samples/sec	Train-accuracy=0.550000
+2017-07-21 02:48:26,876 Epoch[12] Batch [20]	Speed: 30.66 samples/sec	Train-accuracy=0.551667
+2017-07-21 02:48:46,471 Epoch[12] Batch [30]	Speed: 30.62 samples/sec	Train-accuracy=0.548333
+2017-07-21 02:48:58,219 Epoch[12] Train-accuracy=0.469444
+2017-07-21 02:48:58,220 Epoch[12] Time cost=71.253
+2017-07-21 02:48:59,661 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0013.params"
+2017-07-21 02:49:00,824 Epoch[12] Validation-accuracy=0.650000
+2017-07-21 02:49:21,000 Epoch[13] Batch [10]	Speed: 30.66 samples/sec	Train-accuracy=0.540909
+2017-07-21 02:49:40,569 Epoch[13] Batch [20]	Speed: 30.66 samples/sec	Train-accuracy=0.515000
+2017-07-21 02:50:00,125 Epoch[13] Batch [30]	Speed: 30.68 samples/sec	Train-accuracy=0.556667
+2017-07-21 02:50:09,905 Epoch[13] Train-accuracy=0.590000
+2017-07-21 02:50:09,905 Epoch[13] Time cost=69.081
+2017-07-21 02:50:11,356 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0014.params"
+2017-07-21 02:50:12,526 Epoch[13] Validation-accuracy=0.650000
+2017-07-21 02:50:32,725 Epoch[14] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.575758
+2017-07-21 02:50:52,314 Epoch[14] Batch [20]	Speed: 30.63 samples/sec	Train-accuracy=0.608333
+2017-07-21 02:51:11,910 Epoch[14] Batch [30]	Speed: 30.62 samples/sec	Train-accuracy=0.525000
+2017-07-21 02:51:21,695 Epoch[14] Train-accuracy=0.510000
+2017-07-21 02:51:21,695 Epoch[14] Time cost=69.169
+2017-07-21 02:51:23,140 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0015.params"
+2017-07-21 02:51:24,295 Epoch[14] Validation-accuracy=0.641667
+2017-07-21 02:51:44,643 Epoch[15] Batch [10]	Speed: 30.68 samples/sec	Train-accuracy=0.569697
+2017-07-21 02:52:04,247 Epoch[15] Batch [20]	Speed: 30.61 samples/sec	Train-accuracy=0.535000
+2017-07-21 02:52:23,839 Epoch[15] Batch [30]	Speed: 30.62 samples/sec	Train-accuracy=0.515000
+2017-07-21 02:52:35,588 Epoch[15] Train-accuracy=0.597222
+2017-07-21 02:52:35,588 Epoch[15] Time cost=71.293
+2017-07-21 02:52:37,045 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0016.params"
+2017-07-21 02:52:38,211 Epoch[15] Validation-accuracy=0.633333
+2017-07-21 02:52:58,384 Epoch[16] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.495455
+2017-07-21 02:53:17,982 Epoch[16] Batch [20]	Speed: 30.62 samples/sec	Train-accuracy=0.536667
+2017-07-21 02:53:37,565 Epoch[16] Batch [30]	Speed: 30.64 samples/sec	Train-accuracy=0.511667
+2017-07-21 02:53:47,375 Epoch[16] Train-accuracy=0.493333
+2017-07-21 02:53:47,376 Epoch[16] Time cost=69.165
+2017-07-21 02:53:48,828 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0017.params"
+2017-07-21 02:53:49,996 Epoch[16] Validation-accuracy=0.650000
+2017-07-21 02:54:10,183 Epoch[17] Batch [10]	Speed: 30.65 samples/sec	Train-accuracy=0.577273
+2017-07-21 02:54:29,746 Epoch[17] Batch [20]	Speed: 30.67 samples/sec	Train-accuracy=0.553333
+2017-07-21 02:54:49,330 Epoch[17] Batch [30]	Speed: 30.64 samples/sec	Train-accuracy=0.600000
+2017-07-21 02:54:59,128 Epoch[17] Train-accuracy=0.520000
+2017-07-21 02:54:59,129 Epoch[17] Time cost=69.132
+2017-07-21 02:55:00,575 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0018.params"
+2017-07-21 02:55:01,751 Epoch[17] Validation-accuracy=0.650000
+2017-07-21 02:55:22,090 Epoch[18] Batch [10]	Speed: 30.65 samples/sec	Train-accuracy=0.546970
+2017-07-21 02:55:41,672 Epoch[18] Batch [20]	Speed: 30.64 samples/sec	Train-accuracy=0.565000
+2017-07-21 02:56:01,244 Epoch[18] Batch [30]	Speed: 30.66 samples/sec	Train-accuracy=0.511667
+2017-07-21 02:56:12,994 Epoch[18] Train-accuracy=0.533333
+2017-07-21 02:56:12,994 Epoch[18] Time cost=71.243
+2017-07-21 02:56:14,447 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0019.params"
+2017-07-21 02:56:15,616 Epoch[18] Validation-accuracy=0.341667
+2017-07-21 02:56:35,814 Epoch[19] Batch [10]	Speed: 30.63 samples/sec	Train-accuracy=0.583333
+2017-07-21 02:56:55,395 Epoch[19] Batch [20]	Speed: 30.64 samples/sec	Train-accuracy=0.533333
+2017-07-21 02:57:14,978 Epoch[19] Batch [30]	Speed: 30.64 samples/sec	Train-accuracy=0.558333
+2017-07-21 02:57:24,783 Epoch[19] Train-accuracy=0.646667
+2017-07-21 02:57:24,784 Epoch[19] Time cost=69.168
+2017-07-21 02:57:26,228 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0020.params"
+2017-07-21 02:57:27,407 Epoch[19] Validation-accuracy=0.641667
+2017-07-21 02:57:47,610 Epoch[20] Batch [10]	Speed: 30.63 samples/sec	Train-accuracy=0.536364
+2017-07-21 02:58:07,187 Epoch[20] Batch [20]	Speed: 30.65 samples/sec	Train-accuracy=0.470000
+2017-07-21 02:58:26,757 Epoch[20] Batch [30]	Speed: 30.66 samples/sec	Train-accuracy=0.526667
+2017-07-21 02:58:36,538 Epoch[20] Train-accuracy=0.503333
+2017-07-21 02:58:36,538 Epoch[20] Time cost=69.131
+2017-07-21 02:58:37,988 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0021.params"
+2017-07-21 02:58:39,150 Epoch[20] Validation-accuracy=0.641667
+2017-07-21 02:58:59,486 Epoch[21] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.553030
+2017-07-21 02:59:19,083 Epoch[21] Batch [20]	Speed: 30.62 samples/sec	Train-accuracy=0.516667
+2017-07-21 02:59:38,666 Epoch[21] Batch [30]	Speed: 30.64 samples/sec	Train-accuracy=0.520000
+2017-07-21 02:59:50,429 Epoch[21] Train-accuracy=0.561111
+2017-07-21 02:59:50,429 Epoch[21] Time cost=71.279
+2017-07-21 02:59:51,877 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0022.params"
+2017-07-21 02:59:53,050 Epoch[21] Validation-accuracy=0.625000
+2017-07-21 03:00:13,228 Epoch[22] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.568182
+2017-07-21 03:00:32,807 Epoch[22] Batch [20]	Speed: 30.65 samples/sec	Train-accuracy=0.598333
+2017-07-21 03:00:52,400 Epoch[22] Batch [30]	Speed: 30.62 samples/sec	Train-accuracy=0.518333
+2017-07-21 03:01:02,185 Epoch[22] Train-accuracy=0.560000
+2017-07-21 03:01:02,185 Epoch[22] Time cost=69.134
+2017-07-21 03:01:03,633 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0023.params"
+2017-07-21 03:01:04,240 Epoch[22] Validation-accuracy=0.400000
+2017-07-21 03:01:24,404 Epoch[23] Batch [10]	Speed: 30.67 samples/sec	Train-accuracy=0.606061
+2017-07-21 03:01:44,008 Epoch[23] Batch [20]	Speed: 30.61 samples/sec	Train-accuracy=0.593333
+2017-07-21 03:02:03,598 Epoch[23] Batch [30]	Speed: 30.63 samples/sec	Train-accuracy=0.560000
+2017-07-21 03:02:13,397 Epoch[23] Train-accuracy=0.566667
+2017-07-21 03:02:13,397 Epoch[23] Time cost=69.157
+2017-07-21 03:02:14,850 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0024.params"
+2017-07-21 03:02:16,093 Epoch[23] Validation-accuracy=0.658333
+2017-07-21 03:02:36,440 Epoch[24] Batch [10]	Speed: 30.65 samples/sec	Train-accuracy=0.527273
+2017-07-21 03:02:55,995 Epoch[24] Batch [20]	Speed: 30.68 samples/sec	Train-accuracy=0.521667
+2017-07-21 03:03:15,587 Epoch[24] Batch [30]	Speed: 30.63 samples/sec	Train-accuracy=0.570000
+2017-07-21 03:03:27,321 Epoch[24] Train-accuracy=0.555556
+2017-07-21 03:03:27,322 Epoch[24] Time cost=71.229
+2017-07-21 03:03:28,761 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0025.params"
+2017-07-21 03:03:29,941 Epoch[24] Validation-accuracy=0.650000
+2017-07-21 03:03:50,128 Epoch[25] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.559091
+2017-07-21 03:04:09,710 Epoch[25] Batch [20]	Speed: 30.64 samples/sec	Train-accuracy=0.503333
+2017-07-21 03:04:29,281 Epoch[25] Batch [30]	Speed: 30.66 samples/sec	Train-accuracy=0.551667
+2017-07-21 03:04:39,068 Epoch[25] Train-accuracy=0.486667
+2017-07-21 03:04:39,069 Epoch[25] Time cost=69.127
+2017-07-21 03:04:40,516 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0026.params"
+2017-07-21 03:04:41,683 Epoch[25] Validation-accuracy=0.350000
+2017-07-21 03:05:01,862 Epoch[26] Batch [10]	Speed: 30.64 samples/sec	Train-accuracy=0.519697
+2017-07-21 03:05:21,437 Epoch[26] Batch [20]	Speed: 30.65 samples/sec	Train-accuracy=0.583333
+2017-07-21 03:05:41,009 Epoch[26] Batch [30]	Speed: 30.66 samples/sec	Train-accuracy=0.571667
+2017-07-21 03:05:50,807 Epoch[26] Train-accuracy=0.536667
+2017-07-21 03:05:50,807 Epoch[26] Time cost=69.124
+2017-07-21 03:05:52,256 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0027.params"
+2017-07-21 03:05:53,412 Epoch[26] Validation-accuracy=0.641667
+2017-07-21 03:06:13,736 Epoch[27] Batch [10]	Speed: 30.66 samples/sec	Train-accuracy=0.628788
+2017-07-21 03:06:33,326 Epoch[27] Batch [20]	Speed: 30.63 samples/sec	Train-accuracy=0.613333
+2017-07-21 03:06:52,903 Epoch[27] Batch [30]	Speed: 30.65 samples/sec	Train-accuracy=0.521667
+2017-07-21 03:07:04,650 Epoch[27] Train-accuracy=0.591667
+2017-07-21 03:07:04,650 Epoch[27] Time cost=71.238
+2017-07-21 03:07:06,095 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0028.params"
+2017-07-21 03:07:07,254 Epoch[27] Validation-accuracy=0.633333
+2017-07-21 03:07:27,447 Epoch[28] Batch [10]	Speed: 30.65 samples/sec	Train-accuracy=0.553030
+2017-07-21 03:07:47,019 Epoch[28] Batch [20]	Speed: 30.66 samples/sec	Train-accuracy=0.531667
+2017-07-21 03:08:06,609 Epoch[28] Batch [30]	Speed: 30.63 samples/sec	Train-accuracy=0.630000
+2017-07-21 03:08:16,405 Epoch[28] Train-accuracy=0.530000
+2017-07-21 03:08:16,406 Epoch[28] Time cost=69.151
+2017-07-21 03:08:17,855 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0029.params"
+2017-07-21 03:08:19,013 Epoch[28] Validation-accuracy=0.650000
+2017-07-21 03:08:39,210 Epoch[29] Batch [10]	Speed: 30.66 samples/sec	Train-accuracy=0.634848
+2017-07-21 03:08:58,769 Epoch[29] Batch [20]	Speed: 30.68 samples/sec	Train-accuracy=0.605000
+2017-07-21 03:09:18,331 Epoch[29] Batch [30]	Speed: 30.67 samples/sec	Train-accuracy=0.595000
+2017-07-21 03:09:28,126 Epoch[29] Train-accuracy=0.563333
+2017-07-21 03:09:28,126 Epoch[29] Time cost=69.113
+2017-07-21 03:09:29,567 Saved checkpoint to "../../models/pretrained-models/vgg-16/vgg16-train-224-lr-0.01-0030.params"
+2017-07-21 03:09:30,728 Epoch[29] Validation-accuracy=0.650000
