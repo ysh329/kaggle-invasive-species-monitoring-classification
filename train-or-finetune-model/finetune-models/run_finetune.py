@@ -44,7 +44,7 @@ def get_model(prefix, epoch):
 get_model('http://data.mxnet.io/models/imagenet/resnet/50-layers/resnet-50', 0)
 '''
 
-#sym, arg_params, aux_params = mx.model.load_checkpoint('./resnet-50/resnet-50', 0)
+#sym, arg_params, aux_params = mx.model.load_checkpoint('../../model/resnet-50/resnet-50', 0)
 load_model_prefix = sys.argv[1]
 load_model_epoch  = int(sys.argv[2])
 sym, arg_params, aux_params = mx.model.load_checkpoint(load_model_prefix, load_model_epoch)
@@ -62,7 +62,12 @@ def get_fine_tune_model(symbol, arg_params, num_classes, layer_name='flatten0'):
     layer_name: the layer name before the last fully-connected layer
     """
     all_layers = sym.get_internals()
-    net = all_layers[layer_name+'_output']
+    try:
+        net = all_layers[layer_name+'_output']
+    except:
+        print "note: caffe model don't have 'flatten0', but 'flatten_0'"
+        layer_name = 'flatten_0'
+        net = all_layers[layer_name+'_output']
     net = mx.symbol.FullyConnected(data=net, num_hidden=num_classes, name='fc1')
     net = mx.symbol.SoftmaxOutput(data=net, name='softmax')
     new_args = dict({k:arg_params[k] for k in arg_params if 'fc1' not in k})
@@ -76,9 +81,9 @@ head = '%(asctime)-15s %(message)s'
 logging.basicConfig(level=logging.DEBUG, format=head)
 
 def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_model_prefix):
-    #devs = [mx.gpu(i) for i in xrange(num_gpus)]
-    #devs = [mx.gpu(2), mx.gpu(1)]
-    devs = mx.cpu()
+    devs = [mx.gpu(i) for i in xrange(num_gpus)]
+    devs = [mx.gpu(2), mx.gpu(1)]
+    #devs = mx.cpu()
     mod = mx.mod.Module(symbol=new_sym, context=devs)
     mod.fit(train, val, 
         num_epoch=int(sys.argv[4]),
@@ -97,7 +102,7 @@ def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_m
 
 # @@@ AUTOTEST_OUTPUT_IGNORED_CELL
 num_classes = 2
-batch_per_gpu = 24
+batch_per_gpu = 14
 num_gpus = 2
 save_model_prefix = sys.argv[3]
 
