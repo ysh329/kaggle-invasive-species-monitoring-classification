@@ -66,8 +66,12 @@ def get_fine_tune_model(symbol, arg_params, num_classes, layer_name='flatten0'):
         net = all_layers[layer_name+'_output']
     except:
         print "note: caffe model don't have 'flatten0', but 'flatten_0'"
-        layer_name = 'flatten_0'
-        net = all_layers[layer_name+'_output']
+        try:
+            layer_name = 'flatten_0'
+            net = all_layers[layer_name+'_output']
+        except:
+            layer_name = 'flatten'
+            net = all_layers[layer_name+'_output']
     net = mx.symbol.FullyConnected(data=net, num_hidden=num_classes, name='fc1')
     net = mx.symbol.SoftmaxOutput(data=net, name='softmax')
     new_args = dict({k:arg_params[k] for k in arg_params if 'fc1' not in k})
@@ -102,7 +106,7 @@ def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_m
 
 # @@@ AUTOTEST_OUTPUT_IGNORED_CELL
 num_classes = 2
-batch_per_gpu = 14
+batch_per_gpu = 18
 num_gpus = 2
 save_model_prefix = sys.argv[3]
 
