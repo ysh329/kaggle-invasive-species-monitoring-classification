@@ -1,0 +1,807 @@
+[03:26:46] src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.8.0. Attempting to upgrade...
+[03:26:46] src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+note: caffe model don't have 'flatten0', but 'flatten_0'
+note: don't have flatten_0, but flatten
+[03:26:47] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_train.rec, use 4 threads for decoding..
+[03:27:12] src/io/iter_image_recordio.cc:220: ImageRecordIOParser: ../../data/ism-train_val.rec, use 4 threads for decoding..
+[03:28:46] src/operator/./cudnn_convolution-inl.h:55: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+2017-07-22 03:29:00,491 Epoch[0] Batch [10]	Speed: 98.74 samples/sec	Train-accuracy=0.528409
+2017-07-22 03:29:05,357 Epoch[0] Batch [20]	Speed: 98.65 samples/sec	Train-accuracy=0.791667
+2017-07-22 03:29:10,211 Epoch[0] Batch [30]	Speed: 98.89 samples/sec	Train-accuracy=0.850000
+2017-07-22 03:29:15,070 Epoch[0] Batch [40]	Speed: 98.80 samples/sec	Train-accuracy=0.895833
+2017-07-22 03:29:17,499 Epoch[0] Train-accuracy=0.841667
+2017-07-22 03:29:17,499 Epoch[0] Time cost=24.743
+2017-07-22 03:29:17,896 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0001.params"
+2017-07-22 03:29:18,269 Epoch[0] Validation-accuracy=0.875000
+2017-07-22 03:29:23,346 Epoch[1] Batch [10]	Speed: 98.72 samples/sec	Train-accuracy=0.895833
+2017-07-22 03:29:28,202 Epoch[1] Batch [20]	Speed: 98.86 samples/sec	Train-accuracy=0.906250
+2017-07-22 03:29:33,060 Epoch[1] Batch [30]	Speed: 98.80 samples/sec	Train-accuracy=0.893750
+2017-07-22 03:29:37,923 Epoch[1] Batch [40]	Speed: 98.72 samples/sec	Train-accuracy=0.931250
+2017-07-22 03:29:39,869 Epoch[1] Train-accuracy=0.901042
+2017-07-22 03:29:39,869 Epoch[1] Time cost=21.600
+2017-07-22 03:29:40,259 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0002.params"
+2017-07-22 03:29:41,783 Epoch[1] Validation-accuracy=0.888889
+2017-07-22 03:29:46,998 Epoch[2] Batch [10]	Speed: 96.15 samples/sec	Train-accuracy=0.924242
+2017-07-22 03:29:51,860 Epoch[2] Batch [20]	Speed: 98.74 samples/sec	Train-accuracy=0.941667
+2017-07-22 03:29:56,863 Epoch[2] Batch [30]	Speed: 95.95 samples/sec	Train-accuracy=0.916667
+2017-07-22 03:30:01,717 Epoch[2] Batch [40]	Speed: 98.88 samples/sec	Train-accuracy=0.952083
+2017-07-22 03:30:04,148 Epoch[2] Train-accuracy=0.895833
+2017-07-22 03:30:04,148 Epoch[2] Time cost=22.365
+2017-07-22 03:30:04,544 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0003.params"
+2017-07-22 03:30:04,914 Epoch[2] Validation-accuracy=0.906250
+2017-07-22 03:30:09,978 Epoch[3] Batch [10]	Speed: 98.84 samples/sec	Train-accuracy=0.935606
+2017-07-22 03:30:14,839 Epoch[3] Batch [20]	Speed: 98.75 samples/sec	Train-accuracy=0.941667
+2017-07-22 03:30:19,704 Epoch[3] Batch [30]	Speed: 98.67 samples/sec	Train-accuracy=0.937500
+2017-07-22 03:30:24,566 Epoch[3] Batch [40]	Speed: 98.73 samples/sec	Train-accuracy=0.939583
+2017-07-22 03:30:26,511 Epoch[3] Train-accuracy=0.921875
+2017-07-22 03:30:26,511 Epoch[3] Time cost=21.596
+2017-07-22 03:30:26,898 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0004.params"
+2017-07-22 03:30:27,287 Epoch[3] Validation-accuracy=0.895833
+2017-07-22 03:30:32,360 Epoch[4] Batch [10]	Speed: 98.59 samples/sec	Train-accuracy=0.939394
+2017-07-22 03:30:37,215 Epoch[4] Batch [20]	Speed: 98.87 samples/sec	Train-accuracy=0.922917
+2017-07-22 03:30:42,072 Epoch[4] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=0.939583
+2017-07-22 03:30:46,928 Epoch[4] Batch [40]	Speed: 98.85 samples/sec	Train-accuracy=0.937500
+2017-07-22 03:30:49,356 Epoch[4] Train-accuracy=0.920833
+2017-07-22 03:30:49,356 Epoch[4] Time cost=22.069
+2017-07-22 03:30:49,747 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0005.params"
+2017-07-22 03:30:50,275 Epoch[4] Validation-accuracy=0.902778
+2017-07-22 03:30:55,322 Epoch[5] Batch [10]	Speed: 98.87 samples/sec	Train-accuracy=0.946970
+2017-07-22 03:31:00,184 Epoch[5] Batch [20]	Speed: 98.72 samples/sec	Train-accuracy=0.952083
+2017-07-22 03:31:05,036 Epoch[5] Batch [30]	Speed: 98.94 samples/sec	Train-accuracy=0.941667
+2017-07-22 03:31:09,887 Epoch[5] Batch [40]	Speed: 98.95 samples/sec	Train-accuracy=0.947917
+2017-07-22 03:31:11,826 Epoch[5] Train-accuracy=0.942708
+2017-07-22 03:31:11,827 Epoch[5] Time cost=21.552
+2017-07-22 03:31:12,221 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0006.params"
+2017-07-22 03:31:12,592 Epoch[5] Validation-accuracy=0.906250
+2017-07-22 03:31:17,679 Epoch[6] Batch [10]	Speed: 98.67 samples/sec	Train-accuracy=0.956439
+2017-07-22 03:31:22,534 Epoch[6] Batch [20]	Speed: 98.86 samples/sec	Train-accuracy=0.964583
+2017-07-22 03:31:27,384 Epoch[6] Batch [30]	Speed: 98.97 samples/sec	Train-accuracy=0.939583
+2017-07-22 03:31:32,243 Epoch[6] Batch [40]	Speed: 98.80 samples/sec	Train-accuracy=0.956250
+2017-07-22 03:31:34,183 Epoch[6] Train-accuracy=0.932292
+2017-07-22 03:31:34,183 Epoch[6] Time cost=21.591
+2017-07-22 03:31:34,580 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0007.params"
+2017-07-22 03:31:35,105 Epoch[6] Validation-accuracy=0.923611
+2017-07-22 03:31:40,168 Epoch[7] Batch [10]	Speed: 98.85 samples/sec	Train-accuracy=0.950758
+2017-07-22 03:31:45,021 Epoch[7] Batch [20]	Speed: 98.93 samples/sec	Train-accuracy=0.962500
+2017-07-22 03:31:49,889 Epoch[7] Batch [30]	Speed: 98.60 samples/sec	Train-accuracy=0.947917
+2017-07-22 03:31:54,748 Epoch[7] Batch [40]	Speed: 98.81 samples/sec	Train-accuracy=0.964583
+2017-07-22 03:31:57,175 Epoch[7] Train-accuracy=0.975000
+2017-07-22 03:31:57,175 Epoch[7] Time cost=22.070
+2017-07-22 03:31:57,556 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0008.params"
+2017-07-22 03:31:57,926 Epoch[7] Validation-accuracy=0.916667
+2017-07-22 03:32:02,990 Epoch[8] Batch [10]	Speed: 98.88 samples/sec	Train-accuracy=0.954545
+2017-07-22 03:32:07,849 Epoch[8] Batch [20]	Speed: 98.78 samples/sec	Train-accuracy=0.958333
+2017-07-22 03:32:12,701 Epoch[8] Batch [30]	Speed: 98.94 samples/sec	Train-accuracy=0.972917
+2017-07-22 03:32:17,555 Epoch[8] Batch [40]	Speed: 98.90 samples/sec	Train-accuracy=0.960417
+2017-07-22 03:32:19,493 Epoch[8] Train-accuracy=0.958333
+2017-07-22 03:32:19,493 Epoch[8] Time cost=21.567
+2017-07-22 03:32:19,875 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0009.params"
+2017-07-22 03:32:20,245 Epoch[8] Validation-accuracy=0.895833
+2017-07-22 03:32:25,295 Epoch[9] Batch [10]	Speed: 98.85 samples/sec	Train-accuracy=0.965909
+2017-07-22 03:32:30,148 Epoch[9] Batch [20]	Speed: 98.92 samples/sec	Train-accuracy=0.983333
+2017-07-22 03:32:35,005 Epoch[9] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=0.954167
+2017-07-22 03:32:39,858 Epoch[9] Batch [40]	Speed: 98.91 samples/sec	Train-accuracy=0.962500
+2017-07-22 03:32:42,284 Epoch[9] Train-accuracy=0.954167
+2017-07-22 03:32:42,285 Epoch[9] Time cost=22.039
+2017-07-22 03:32:42,661 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0010.params"
+2017-07-22 03:32:43,186 Epoch[9] Validation-accuracy=0.923611
+2017-07-22 03:32:48,233 Epoch[10] Batch [10]	Speed: 98.84 samples/sec	Train-accuracy=0.969697
+2017-07-22 03:32:53,088 Epoch[10] Batch [20]	Speed: 98.87 samples/sec	Train-accuracy=0.968750
+2017-07-22 03:32:57,946 Epoch[10] Batch [30]	Speed: 98.82 samples/sec	Train-accuracy=0.968750
+2017-07-22 03:33:02,799 Epoch[10] Batch [40]	Speed: 98.92 samples/sec	Train-accuracy=0.941667
+2017-07-22 03:33:04,744 Epoch[10] Train-accuracy=0.968750
+2017-07-22 03:33:04,745 Epoch[10] Time cost=21.558
+2017-07-22 03:33:05,116 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0011.params"
+2017-07-22 03:33:05,485 Epoch[10] Validation-accuracy=0.927083
+2017-07-22 03:33:10,539 Epoch[11] Batch [10]	Speed: 98.81 samples/sec	Train-accuracy=0.971591
+2017-07-22 03:33:15,396 Epoch[11] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:33:20,256 Epoch[11] Batch [30]	Speed: 98.78 samples/sec	Train-accuracy=0.966667
+2017-07-22 03:33:25,105 Epoch[11] Batch [40]	Speed: 99.00 samples/sec	Train-accuracy=0.979167
+2017-07-22 03:33:27,046 Epoch[11] Train-accuracy=0.947917
+2017-07-22 03:33:27,046 Epoch[11] Time cost=21.561
+2017-07-22 03:33:27,424 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0012.params"
+2017-07-22 03:33:27,947 Epoch[11] Validation-accuracy=0.930556
+2017-07-22 03:33:33,168 Epoch[12] Batch [10]	Speed: 98.78 samples/sec	Train-accuracy=0.967803
+2017-07-22 03:33:38,023 Epoch[12] Batch [20]	Speed: 98.87 samples/sec	Train-accuracy=0.964583
+2017-07-22 03:33:42,887 Epoch[12] Batch [30]	Speed: 98.71 samples/sec	Train-accuracy=0.968750
+2017-07-22 03:33:47,751 Epoch[12] Batch [40]	Speed: 98.69 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:33:50,178 Epoch[12] Train-accuracy=0.970833
+2017-07-22 03:33:50,178 Epoch[12] Time cost=22.231
+2017-07-22 03:33:50,551 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0013.params"
+2017-07-22 03:33:50,921 Epoch[12] Validation-accuracy=0.937500
+2017-07-22 03:33:55,998 Epoch[13] Batch [10]	Speed: 98.87 samples/sec	Train-accuracy=0.973485
+2017-07-22 03:34:00,862 Epoch[13] Batch [20]	Speed: 98.70 samples/sec	Train-accuracy=0.972917
+2017-07-22 03:34:05,719 Epoch[13] Batch [30]	Speed: 98.83 samples/sec	Train-accuracy=0.972917
+2017-07-22 03:34:10,574 Epoch[13] Batch [40]	Speed: 98.87 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:34:12,514 Epoch[13] Train-accuracy=0.958333
+2017-07-22 03:34:12,515 Epoch[13] Time cost=21.593
+2017-07-22 03:34:12,903 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0014.params"
+2017-07-22 03:34:13,266 Epoch[13] Validation-accuracy=0.927083
+2017-07-22 03:34:18,327 Epoch[14] Batch [10]	Speed: 98.90 samples/sec	Train-accuracy=0.975379
+2017-07-22 03:34:23,184 Epoch[14] Batch [20]	Speed: 98.82 samples/sec	Train-accuracy=0.966667
+2017-07-22 03:34:28,031 Epoch[14] Batch [30]	Speed: 99.04 samples/sec	Train-accuracy=0.975000
+2017-07-22 03:34:32,890 Epoch[14] Batch [40]	Speed: 98.79 samples/sec	Train-accuracy=0.981250
+2017-07-22 03:34:35,314 Epoch[14] Train-accuracy=0.962500
+2017-07-22 03:34:35,315 Epoch[14] Time cost=22.049
+2017-07-22 03:34:35,696 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0015.params"
+2017-07-22 03:34:36,225 Epoch[14] Validation-accuracy=0.958333
+2017-07-22 03:34:41,272 Epoch[15] Batch [10]	Speed: 98.96 samples/sec	Train-accuracy=0.967803
+2017-07-22 03:34:46,124 Epoch[15] Batch [20]	Speed: 98.92 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:34:50,976 Epoch[15] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.968750
+2017-07-22 03:34:55,829 Epoch[15] Batch [40]	Speed: 98.92 samples/sec	Train-accuracy=0.983333
+2017-07-22 03:34:57,775 Epoch[15] Train-accuracy=0.973958
+2017-07-22 03:34:57,775 Epoch[15] Time cost=21.550
+2017-07-22 03:34:58,150 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0016.params"
+2017-07-22 03:34:58,516 Epoch[15] Validation-accuracy=0.958333
+2017-07-22 03:35:03,595 Epoch[16] Batch [10]	Speed: 98.59 samples/sec	Train-accuracy=0.979167
+2017-07-22 03:35:08,455 Epoch[16] Batch [20]	Speed: 98.79 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:35:13,316 Epoch[16] Batch [30]	Speed: 98.74 samples/sec	Train-accuracy=0.979167
+2017-07-22 03:35:18,176 Epoch[16] Batch [40]	Speed: 98.78 samples/sec	Train-accuracy=0.968750
+2017-07-22 03:35:20,605 Epoch[16] Train-accuracy=0.975000
+2017-07-22 03:35:20,605 Epoch[16] Time cost=22.088
+2017-07-22 03:35:20,987 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0017.params"
+2017-07-22 03:35:21,520 Epoch[16] Validation-accuracy=0.951389
+2017-07-22 03:35:26,583 Epoch[17] Batch [10]	Speed: 98.88 samples/sec	Train-accuracy=0.975379
+2017-07-22 03:35:31,440 Epoch[17] Batch [20]	Speed: 98.85 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:35:36,298 Epoch[17] Batch [30]	Speed: 98.79 samples/sec	Train-accuracy=0.981250
+2017-07-22 03:35:41,151 Epoch[17] Batch [40]	Speed: 98.92 samples/sec	Train-accuracy=0.975000
+2017-07-22 03:35:43,094 Epoch[17] Train-accuracy=0.968750
+2017-07-22 03:35:43,094 Epoch[17] Time cost=21.573
+2017-07-22 03:35:43,472 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0018.params"
+2017-07-22 03:35:43,839 Epoch[17] Validation-accuracy=0.968750
+2017-07-22 03:35:48,900 Epoch[18] Batch [10]	Speed: 98.85 samples/sec	Train-accuracy=0.977273
+2017-07-22 03:35:53,753 Epoch[18] Batch [20]	Speed: 98.91 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:35:58,606 Epoch[18] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.981250
+2017-07-22 03:36:03,465 Epoch[18] Batch [40]	Speed: 98.78 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:36:05,408 Epoch[18] Train-accuracy=0.958333
+2017-07-22 03:36:05,408 Epoch[18] Time cost=21.568
+2017-07-22 03:36:05,789 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0019.params"
+2017-07-22 03:36:06,136 Epoch[18] Validation-accuracy=0.947917
+2017-07-22 03:36:11,194 Epoch[19] Batch [10]	Speed: 98.73 samples/sec	Train-accuracy=0.969697
+2017-07-22 03:36:16,049 Epoch[19] Batch [20]	Speed: 98.88 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:36:20,905 Epoch[19] Batch [30]	Speed: 98.86 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:36:25,759 Epoch[19] Batch [40]	Speed: 98.90 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:36:28,188 Epoch[19] Train-accuracy=0.962500
+2017-07-22 03:36:28,188 Epoch[19] Time cost=22.052
+2017-07-22 03:36:28,571 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0020.params"
+2017-07-22 03:36:29,097 Epoch[19] Validation-accuracy=0.958333
+2017-07-22 03:36:34,193 Epoch[20] Batch [10]	Speed: 98.54 samples/sec	Train-accuracy=0.971591
+2017-07-22 03:36:39,060 Epoch[20] Batch [20]	Speed: 98.63 samples/sec	Train-accuracy=0.970833
+2017-07-22 03:36:43,911 Epoch[20] Batch [30]	Speed: 98.96 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:36:48,772 Epoch[20] Batch [40]	Speed: 98.74 samples/sec	Train-accuracy=0.983333
+2017-07-22 03:36:50,716 Epoch[20] Train-accuracy=0.947917
+2017-07-22 03:36:50,717 Epoch[20] Time cost=21.619
+2017-07-22 03:36:51,091 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0021.params"
+2017-07-22 03:36:51,459 Epoch[20] Validation-accuracy=0.958333
+2017-07-22 03:36:56,947 Epoch[21] Batch [10]	Speed: 91.13 samples/sec	Train-accuracy=0.977273
+2017-07-22 03:37:01,805 Epoch[21] Batch [20]	Speed: 98.80 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:37:06,668 Epoch[21] Batch [30]	Speed: 98.72 samples/sec	Train-accuracy=0.979167
+2017-07-22 03:37:11,523 Epoch[21] Batch [40]	Speed: 98.87 samples/sec	Train-accuracy=0.972917
+2017-07-22 03:37:13,952 Epoch[21] Train-accuracy=0.991667
+2017-07-22 03:37:13,952 Epoch[21] Time cost=22.493
+2017-07-22 03:37:14,332 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0022.params"
+2017-07-22 03:37:14,861 Epoch[21] Validation-accuracy=0.951389
+2017-07-22 03:37:19,948 Epoch[22] Batch [10]	Speed: 98.69 samples/sec	Train-accuracy=0.977273
+2017-07-22 03:37:24,804 Epoch[22] Batch [20]	Speed: 98.86 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:37:29,664 Epoch[22] Batch [30]	Speed: 98.78 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:37:34,524 Epoch[22] Batch [40]	Speed: 98.75 samples/sec	Train-accuracy=0.966667
+2017-07-22 03:37:36,464 Epoch[22] Train-accuracy=0.973958
+2017-07-22 03:37:36,464 Epoch[22] Time cost=21.603
+2017-07-22 03:37:36,845 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0023.params"
+2017-07-22 03:37:37,213 Epoch[22] Validation-accuracy=0.968750
+2017-07-22 03:37:42,289 Epoch[23] Batch [10]	Speed: 98.75 samples/sec	Train-accuracy=0.986742
+2017-07-22 03:37:47,151 Epoch[23] Batch [20]	Speed: 98.74 samples/sec	Train-accuracy=0.983333
+2017-07-22 03:37:52,021 Epoch[23] Batch [30]	Speed: 98.55 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:37:56,883 Epoch[23] Batch [40]	Speed: 98.75 samples/sec	Train-accuracy=0.975000
+2017-07-22 03:37:58,823 Epoch[23] Train-accuracy=0.989583
+2017-07-22 03:37:58,823 Epoch[23] Time cost=21.609
+2017-07-22 03:37:59,200 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0024.params"
+2017-07-22 03:37:59,568 Epoch[23] Validation-accuracy=0.947917
+2017-07-22 03:38:04,821 Epoch[24] Batch [10]	Speed: 98.60 samples/sec	Train-accuracy=0.979167
+2017-07-22 03:38:09,690 Epoch[24] Batch [20]	Speed: 98.60 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:38:14,543 Epoch[24] Batch [30]	Speed: 98.91 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:38:19,408 Epoch[24] Batch [40]	Speed: 98.68 samples/sec	Train-accuracy=0.972917
+2017-07-22 03:38:21,835 Epoch[24] Train-accuracy=0.970833
+2017-07-22 03:38:21,835 Epoch[24] Time cost=22.267
+2017-07-22 03:38:22,208 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0025.params"
+2017-07-22 03:38:22,735 Epoch[24] Validation-accuracy=0.958333
+2017-07-22 03:38:27,811 Epoch[25] Batch [10]	Speed: 98.91 samples/sec	Train-accuracy=0.977273
+2017-07-22 03:38:32,671 Epoch[25] Batch [20]	Speed: 98.75 samples/sec	Train-accuracy=0.981250
+2017-07-22 03:38:37,533 Epoch[25] Batch [30]	Speed: 98.75 samples/sec	Train-accuracy=0.977083
+2017-07-22 03:38:42,382 Epoch[25] Batch [40]	Speed: 98.99 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:38:44,323 Epoch[25] Train-accuracy=0.979167
+2017-07-22 03:38:44,323 Epoch[25] Time cost=21.587
+2017-07-22 03:38:44,699 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0026.params"
+2017-07-22 03:38:45,061 Epoch[25] Validation-accuracy=0.947917
+2017-07-22 03:38:50,114 Epoch[26] Batch [10]	Speed: 98.81 samples/sec	Train-accuracy=0.988636
+2017-07-22 03:38:54,964 Epoch[26] Batch [20]	Speed: 98.99 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:38:59,818 Epoch[26] Batch [30]	Speed: 98.90 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:39:04,670 Epoch[26] Batch [40]	Speed: 98.92 samples/sec	Train-accuracy=0.981250
+2017-07-22 03:39:07,095 Epoch[26] Train-accuracy=0.970833
+2017-07-22 03:39:07,095 Epoch[26] Time cost=22.034
+2017-07-22 03:39:07,470 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0027.params"
+2017-07-22 03:39:07,996 Epoch[26] Validation-accuracy=0.951389
+2017-07-22 03:39:13,060 Epoch[27] Batch [10]	Speed: 98.62 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:39:17,913 Epoch[27] Batch [20]	Speed: 98.92 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:39:22,770 Epoch[27] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:39:27,627 Epoch[27] Batch [40]	Speed: 98.81 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:39:29,571 Epoch[27] Train-accuracy=0.989583
+2017-07-22 03:39:29,571 Epoch[27] Time cost=21.575
+2017-07-22 03:39:29,930 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0028.params"
+2017-07-22 03:39:30,299 Epoch[27] Validation-accuracy=0.968750
+2017-07-22 03:39:35,372 Epoch[28] Batch [10]	Speed: 98.59 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:39:40,238 Epoch[28] Batch [20]	Speed: 98.67 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:39:45,098 Epoch[28] Batch [30]	Speed: 98.76 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:39:49,953 Epoch[28] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:39:52,384 Epoch[28] Train-accuracy=0.979167
+2017-07-22 03:39:52,384 Epoch[28] Time cost=22.085
+2017-07-22 03:39:52,766 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0029.params"
+2017-07-22 03:39:53,136 Epoch[28] Validation-accuracy=0.947917
+2017-07-22 03:39:58,212 Epoch[29] Batch [10]	Speed: 98.85 samples/sec	Train-accuracy=0.990530
+2017-07-22 03:40:03,069 Epoch[29] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:40:07,926 Epoch[29] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:40:12,786 Epoch[29] Batch [40]	Speed: 98.76 samples/sec	Train-accuracy=0.983333
+2017-07-22 03:40:14,730 Epoch[29] Train-accuracy=0.973958
+2017-07-22 03:40:14,730 Epoch[29] Time cost=21.594
+2017-07-22 03:40:15,105 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0030.params"
+2017-07-22 03:40:15,634 Epoch[29] Validation-accuracy=0.958333
+2017-07-22 03:40:20,686 Epoch[30] Batch [10]	Speed: 98.83 samples/sec	Train-accuracy=0.982955
+2017-07-22 03:40:25,552 Epoch[30] Batch [20]	Speed: 98.66 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:40:30,407 Epoch[30] Batch [30]	Speed: 98.89 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:40:35,256 Epoch[30] Batch [40]	Speed: 98.98 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:40:37,195 Epoch[30] Train-accuracy=0.989583
+2017-07-22 03:40:37,195 Epoch[30] Time cost=21.561
+2017-07-22 03:40:37,571 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0031.params"
+2017-07-22 03:40:37,942 Epoch[30] Validation-accuracy=0.958333
+2017-07-22 03:40:43,004 Epoch[31] Batch [10]	Speed: 98.66 samples/sec	Train-accuracy=0.981061
+2017-07-22 03:40:47,859 Epoch[31] Batch [20]	Speed: 98.88 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:40:52,712 Epoch[31] Batch [30]	Speed: 98.90 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:40:57,560 Epoch[31] Batch [40]	Speed: 99.03 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:40:59,986 Epoch[31] Train-accuracy=0.995833
+2017-07-22 03:40:59,986 Epoch[31] Time cost=22.043
+2017-07-22 03:41:00,354 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0032.params"
+2017-07-22 03:41:00,877 Epoch[31] Validation-accuracy=0.951389
+2017-07-22 03:41:05,933 Epoch[32] Batch [10]	Speed: 98.91 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:41:10,784 Epoch[32] Batch [20]	Speed: 98.95 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:41:15,645 Epoch[32] Batch [30]	Speed: 98.75 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:41:20,499 Epoch[32] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:41:22,443 Epoch[32] Train-accuracy=1.000000
+2017-07-22 03:41:22,443 Epoch[32] Time cost=21.566
+2017-07-22 03:41:22,823 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0033.params"
+2017-07-22 03:41:23,192 Epoch[32] Validation-accuracy=0.968750
+2017-07-22 03:41:28,266 Epoch[33] Batch [10]	Speed: 98.76 samples/sec	Train-accuracy=0.988636
+2017-07-22 03:41:33,129 Epoch[33] Batch [20]	Speed: 98.71 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:41:37,994 Epoch[33] Batch [30]	Speed: 98.68 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:41:42,845 Epoch[33] Batch [40]	Speed: 98.95 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:41:45,269 Epoch[33] Train-accuracy=0.983333
+2017-07-22 03:41:45,269 Epoch[33] Time cost=22.077
+2017-07-22 03:41:45,649 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0034.params"
+2017-07-22 03:41:46,017 Epoch[33] Validation-accuracy=0.947917
+2017-07-22 03:41:51,103 Epoch[34] Batch [10]	Speed: 98.68 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:41:55,960 Epoch[34] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:42:00,809 Epoch[34] Batch [30]	Speed: 99.00 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:42:05,666 Epoch[34] Batch [40]	Speed: 98.83 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:42:07,611 Epoch[34] Train-accuracy=0.979167
+2017-07-22 03:42:07,611 Epoch[34] Time cost=21.594
+2017-07-22 03:42:07,992 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0035.params"
+2017-07-22 03:42:08,522 Epoch[34] Validation-accuracy=0.958333
+2017-07-22 03:42:13,592 Epoch[35] Batch [10]	Speed: 99.00 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:42:18,482 Epoch[35] Batch [20]	Speed: 98.17 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:42:23,369 Epoch[35] Batch [30]	Speed: 98.22 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:42:28,292 Epoch[35] Batch [40]	Speed: 97.52 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:42:30,255 Epoch[35] Train-accuracy=0.984375
+2017-07-22 03:42:30,256 Epoch[35] Time cost=21.733
+2017-07-22 03:42:30,631 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0036.params"
+2017-07-22 03:42:30,992 Epoch[35] Validation-accuracy=0.958333
+2017-07-22 03:42:36,291 Epoch[36] Batch [10]	Speed: 97.46 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:42:41,211 Epoch[36] Batch [20]	Speed: 97.57 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:42:46,143 Epoch[36] Batch [30]	Speed: 97.33 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:42:51,064 Epoch[36] Batch [40]	Speed: 97.55 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:42:53,510 Epoch[36] Train-accuracy=0.966667
+2017-07-22 03:42:53,510 Epoch[36] Time cost=22.518
+2017-07-22 03:42:53,874 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0037.params"
+2017-07-22 03:42:54,395 Epoch[36] Validation-accuracy=0.944444
+2017-07-22 03:42:59,557 Epoch[37] Batch [10]	Speed: 97.01 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:43:04,488 Epoch[37] Batch [20]	Speed: 97.36 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:43:09,438 Epoch[37] Batch [30]	Speed: 96.97 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:43:14,354 Epoch[37] Batch [40]	Speed: 97.65 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:43:16,337 Epoch[37] Train-accuracy=0.994792
+2017-07-22 03:43:16,337 Epoch[37] Time cost=21.941
+2017-07-22 03:43:16,710 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0038.params"
+2017-07-22 03:43:17,051 Epoch[37] Validation-accuracy=0.968750
+2017-07-22 03:43:22,172 Epoch[38] Batch [10]	Speed: 98.14 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:43:27,038 Epoch[38] Batch [20]	Speed: 98.65 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:43:31,889 Epoch[38] Batch [30]	Speed: 98.95 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:43:36,728 Epoch[38] Batch [40]	Speed: 99.20 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:43:39,146 Epoch[38] Train-accuracy=0.995833
+2017-07-22 03:43:39,146 Epoch[38] Time cost=22.094
+2017-07-22 03:43:39,509 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0039.params"
+2017-07-22 03:43:39,873 Epoch[38] Validation-accuracy=0.958333
+2017-07-22 03:43:44,945 Epoch[39] Batch [10]	Speed: 98.86 samples/sec	Train-accuracy=0.990530
+2017-07-22 03:43:49,822 Epoch[39] Batch [20]	Speed: 98.45 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:43:54,675 Epoch[39] Batch [30]	Speed: 98.90 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:43:59,529 Epoch[39] Batch [40]	Speed: 98.90 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:44:01,470 Epoch[39] Train-accuracy=0.989583
+2017-07-22 03:44:01,470 Epoch[39] Time cost=21.596
+2017-07-22 03:44:01,850 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0040.params"
+2017-07-22 03:44:02,379 Epoch[39] Validation-accuracy=0.958333
+2017-07-22 03:44:07,427 Epoch[40] Batch [10]	Speed: 98.92 samples/sec	Train-accuracy=0.988636
+2017-07-22 03:44:12,283 Epoch[40] Batch [20]	Speed: 98.84 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:44:17,148 Epoch[40] Batch [30]	Speed: 98.67 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:44:21,998 Epoch[40] Batch [40]	Speed: 98.97 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:44:24,424 Epoch[40] Train-accuracy=0.991667
+2017-07-22 03:44:24,424 Epoch[40] Time cost=22.044
+2017-07-22 03:44:24,803 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0041.params"
+2017-07-22 03:44:25,175 Epoch[40] Validation-accuracy=0.958333
+2017-07-22 03:44:30,233 Epoch[41] Batch [10]	Speed: 98.96 samples/sec	Train-accuracy=0.984848
+2017-07-22 03:44:35,087 Epoch[41] Batch [20]	Speed: 98.89 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:44:39,948 Epoch[41] Batch [30]	Speed: 98.74 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:44:44,802 Epoch[41] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:44:46,743 Epoch[41] Train-accuracy=1.000000
+2017-07-22 03:44:46,744 Epoch[41] Time cost=21.568
+2017-07-22 03:44:47,118 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0042.params"
+2017-07-22 03:44:47,648 Epoch[41] Validation-accuracy=0.944444
+2017-07-22 03:44:52,718 Epoch[42] Batch [10]	Speed: 98.87 samples/sec	Train-accuracy=0.988636
+2017-07-22 03:44:57,576 Epoch[42] Batch [20]	Speed: 98.81 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:45:02,445 Epoch[42] Batch [30]	Speed: 98.59 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:45:07,306 Epoch[42] Batch [40]	Speed: 98.74 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:45:09,251 Epoch[42] Train-accuracy=1.000000
+2017-07-22 03:45:09,251 Epoch[42] Time cost=21.602
+2017-07-22 03:45:09,638 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0043.params"
+2017-07-22 03:45:10,006 Epoch[42] Validation-accuracy=0.968750
+2017-07-22 03:45:15,090 Epoch[43] Batch [10]	Speed: 98.38 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:45:19,961 Epoch[43] Batch [20]	Speed: 98.57 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:45:24,825 Epoch[43] Batch [30]	Speed: 98.68 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:45:29,683 Epoch[43] Batch [40]	Speed: 98.82 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:45:32,112 Epoch[43] Train-accuracy=0.987500
+2017-07-22 03:45:32,113 Epoch[43] Time cost=22.107
+2017-07-22 03:45:32,487 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0044.params"
+2017-07-22 03:45:32,854 Epoch[43] Validation-accuracy=0.958333
+2017-07-22 03:45:37,931 Epoch[44] Batch [10]	Speed: 98.87 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:45:42,784 Epoch[44] Batch [20]	Speed: 98.91 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:45:47,649 Epoch[44] Batch [30]	Speed: 98.67 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:45:52,500 Epoch[44] Batch [40]	Speed: 98.94 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:45:54,445 Epoch[44] Train-accuracy=0.994792
+2017-07-22 03:45:54,445 Epoch[44] Time cost=21.591
+2017-07-22 03:45:54,825 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0045.params"
+2017-07-22 03:45:55,352 Epoch[44] Validation-accuracy=0.958333
+2017-07-22 03:46:00,418 Epoch[45] Batch [10]	Speed: 98.53 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:46:05,282 Epoch[45] Batch [20]	Speed: 98.69 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:46:10,134 Epoch[45] Batch [30]	Speed: 98.94 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:46:14,992 Epoch[45] Batch [40]	Speed: 98.81 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:46:17,417 Epoch[45] Train-accuracy=0.987500
+2017-07-22 03:46:17,418 Epoch[45] Time cost=22.066
+2017-07-22 03:46:17,797 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0046.params"
+2017-07-22 03:46:18,165 Epoch[45] Validation-accuracy=0.958333
+2017-07-22 03:46:23,245 Epoch[46] Batch [10]	Speed: 98.68 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:46:28,102 Epoch[46] Batch [20]	Speed: 98.82 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:46:32,960 Epoch[46] Batch [30]	Speed: 98.82 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:46:37,816 Epoch[46] Batch [40]	Speed: 98.86 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:46:39,758 Epoch[46] Train-accuracy=0.989583
+2017-07-22 03:46:39,758 Epoch[46] Time cost=21.593
+2017-07-22 03:46:40,141 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0047.params"
+2017-07-22 03:46:40,511 Epoch[46] Validation-accuracy=0.947917
+2017-07-22 03:46:45,595 Epoch[47] Batch [10]	Speed: 98.22 samples/sec	Train-accuracy=0.996212
+2017-07-22 03:46:50,467 Epoch[47] Batch [20]	Speed: 98.53 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:46:55,334 Epoch[47] Batch [30]	Speed: 98.63 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:47:00,198 Epoch[47] Batch [40]	Speed: 98.70 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:47:02,139 Epoch[47] Train-accuracy=0.963542
+2017-07-22 03:47:02,139 Epoch[47] Time cost=21.627
+2017-07-22 03:47:02,512 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0048.params"
+2017-07-22 03:47:03,118 Epoch[47] Validation-accuracy=0.958333
+2017-07-22 03:47:08,355 Epoch[48] Batch [10]	Speed: 98.83 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:47:13,212 Epoch[48] Batch [20]	Speed: 98.82 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:47:18,070 Epoch[48] Batch [30]	Speed: 98.82 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:47:22,930 Epoch[48] Batch [40]	Speed: 98.77 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:47:25,363 Epoch[48] Train-accuracy=0.987500
+2017-07-22 03:47:25,363 Epoch[48] Time cost=22.245
+2017-07-22 03:47:25,740 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0049.params"
+2017-07-22 03:47:26,110 Epoch[48] Validation-accuracy=0.958333
+2017-07-22 03:47:31,182 Epoch[49] Batch [10]	Speed: 98.90 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:47:36,036 Epoch[49] Batch [20]	Speed: 98.90 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:47:40,890 Epoch[49] Batch [30]	Speed: 98.90 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:47:45,743 Epoch[49] Batch [40]	Speed: 98.91 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:47:47,691 Epoch[49] Train-accuracy=0.994792
+2017-07-22 03:47:47,692 Epoch[49] Time cost=21.581
+2017-07-22 03:47:48,065 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0050.params"
+2017-07-22 03:47:48,587 Epoch[49] Validation-accuracy=0.958333
+2017-07-22 03:47:53,643 Epoch[50] Batch [10]	Speed: 98.77 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:47:58,507 Epoch[50] Batch [20]	Speed: 98.69 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:48:03,372 Epoch[50] Batch [30]	Speed: 98.67 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:48:08,227 Epoch[50] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:48:10,656 Epoch[50] Train-accuracy=0.987500
+2017-07-22 03:48:10,656 Epoch[50] Time cost=22.070
+2017-07-22 03:48:11,035 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0051.params"
+2017-07-22 03:48:11,401 Epoch[50] Validation-accuracy=0.958333
+2017-07-22 03:48:16,457 Epoch[51] Batch [10]	Speed: 98.89 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:48:21,320 Epoch[51] Batch [20]	Speed: 98.71 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:48:26,175 Epoch[51] Batch [30]	Speed: 98.87 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:48:31,031 Epoch[51] Batch [40]	Speed: 98.86 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:48:32,970 Epoch[51] Train-accuracy=0.989583
+2017-07-22 03:48:32,971 Epoch[51] Time cost=21.569
+2017-07-22 03:48:33,352 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0052.params"
+2017-07-22 03:48:33,712 Epoch[51] Validation-accuracy=0.947917
+2017-07-22 03:48:38,767 Epoch[52] Batch [10]	Speed: 98.89 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:48:43,620 Epoch[52] Batch [20]	Speed: 98.92 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:48:48,479 Epoch[52] Batch [30]	Speed: 98.80 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:48:53,336 Epoch[52] Batch [40]	Speed: 98.84 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:48:55,762 Epoch[52] Train-accuracy=0.987500
+2017-07-22 03:48:55,762 Epoch[52] Time cost=22.050
+2017-07-22 03:48:56,138 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0053.params"
+2017-07-22 03:48:56,666 Epoch[52] Validation-accuracy=0.958333
+2017-07-22 03:49:01,721 Epoch[53] Batch [10]	Speed: 98.82 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:49:06,587 Epoch[53] Batch [20]	Speed: 98.64 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:49:11,443 Epoch[53] Batch [30]	Speed: 98.86 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:49:16,303 Epoch[53] Batch [40]	Speed: 98.78 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:49:18,246 Epoch[53] Train-accuracy=1.000000
+2017-07-22 03:49:18,247 Epoch[53] Time cost=21.581
+2017-07-22 03:49:18,628 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0054.params"
+2017-07-22 03:49:18,998 Epoch[53] Validation-accuracy=0.958333
+2017-07-22 03:49:24,070 Epoch[54] Batch [10]	Speed: 98.88 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:49:28,921 Epoch[54] Batch [20]	Speed: 98.95 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:49:33,786 Epoch[54] Batch [30]	Speed: 98.68 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:49:38,644 Epoch[54] Batch [40]	Speed: 98.81 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:49:40,588 Epoch[54] Train-accuracy=0.994792
+2017-07-22 03:49:40,588 Epoch[54] Time cost=21.590
+2017-07-22 03:49:40,964 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0055.params"
+2017-07-22 03:49:41,491 Epoch[54] Validation-accuracy=0.958333
+2017-07-22 03:49:46,553 Epoch[55] Batch [10]	Speed: 98.85 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:49:51,408 Epoch[55] Batch [20]	Speed: 98.87 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:49:56,261 Epoch[55] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:50:01,114 Epoch[55] Batch [40]	Speed: 98.90 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:50:03,547 Epoch[55] Train-accuracy=0.995833
+2017-07-22 03:50:03,547 Epoch[55] Time cost=22.056
+2017-07-22 03:50:03,927 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0056.params"
+2017-07-22 03:50:04,296 Epoch[55] Validation-accuracy=0.958333
+2017-07-22 03:50:09,347 Epoch[56] Batch [10]	Speed: 98.86 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:50:14,198 Epoch[56] Batch [20]	Speed: 98.94 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:50:19,050 Epoch[56] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:50:23,908 Epoch[56] Batch [40]	Speed: 98.82 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:50:25,852 Epoch[56] Train-accuracy=0.984375
+2017-07-22 03:50:25,852 Epoch[56] Time cost=21.555
+2017-07-22 03:50:26,235 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0057.params"
+2017-07-22 03:50:26,604 Epoch[56] Validation-accuracy=0.947917
+2017-07-22 03:50:31,646 Epoch[57] Batch [10]	Speed: 98.96 samples/sec	Train-accuracy=0.990530
+2017-07-22 03:50:36,503 Epoch[57] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:50:41,355 Epoch[57] Batch [30]	Speed: 98.92 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:50:46,207 Epoch[57] Batch [40]	Speed: 98.95 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:50:48,647 Epoch[57] Train-accuracy=0.987500
+2017-07-22 03:50:48,647 Epoch[57] Time cost=22.043
+2017-07-22 03:50:49,027 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0058.params"
+2017-07-22 03:50:49,561 Epoch[57] Validation-accuracy=0.958333
+2017-07-22 03:50:54,645 Epoch[58] Batch [10]	Speed: 98.29 samples/sec	Train-accuracy=0.984848
+2017-07-22 03:50:59,500 Epoch[58] Batch [20]	Speed: 98.86 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:51:04,359 Epoch[58] Batch [30]	Speed: 98.80 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:51:09,219 Epoch[58] Batch [40]	Speed: 98.77 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:51:11,161 Epoch[58] Train-accuracy=0.989583
+2017-07-22 03:51:11,161 Epoch[58] Time cost=21.600
+2017-07-22 03:51:11,538 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0059.params"
+2017-07-22 03:51:11,902 Epoch[58] Validation-accuracy=0.958333
+2017-07-22 03:51:16,975 Epoch[59] Batch [10]	Speed: 98.64 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:51:21,843 Epoch[59] Batch [20]	Speed: 98.61 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:51:26,710 Epoch[59] Batch [30]	Speed: 98.62 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:51:31,563 Epoch[59] Batch [40]	Speed: 98.93 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:51:33,511 Epoch[59] Train-accuracy=1.000000
+2017-07-22 03:51:33,511 Epoch[59] Time cost=21.608
+2017-07-22 03:51:33,887 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0060.params"
+2017-07-22 03:51:34,412 Epoch[59] Validation-accuracy=0.958333
+2017-07-22 03:51:39,644 Epoch[60] Batch [10]	Speed: 98.94 samples/sec	Train-accuracy=0.996212
+2017-07-22 03:51:44,504 Epoch[60] Batch [20]	Speed: 98.78 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:51:49,359 Epoch[60] Batch [30]	Speed: 98.86 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:51:54,215 Epoch[60] Batch [40]	Speed: 98.87 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:51:56,642 Epoch[60] Train-accuracy=0.995833
+2017-07-22 03:51:56,642 Epoch[60] Time cost=22.230
+2017-07-22 03:51:57,023 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0061.params"
+2017-07-22 03:51:57,392 Epoch[60] Validation-accuracy=0.958333
+2017-07-22 03:52:02,460 Epoch[61] Batch [10]	Speed: 98.83 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:52:07,318 Epoch[61] Batch [20]	Speed: 98.81 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:52:12,176 Epoch[61] Batch [30]	Speed: 98.82 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:52:17,024 Epoch[61] Batch [40]	Speed: 99.02 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:52:18,967 Epoch[61] Train-accuracy=0.994792
+2017-07-22 03:52:18,967 Epoch[61] Time cost=21.575
+2017-07-22 03:52:19,342 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0062.params"
+2017-07-22 03:52:19,709 Epoch[61] Validation-accuracy=0.947917
+2017-07-22 03:52:24,796 Epoch[62] Batch [10]	Speed: 98.38 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:52:29,664 Epoch[62] Batch [20]	Speed: 98.62 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:52:34,526 Epoch[62] Batch [30]	Speed: 98.72 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:52:39,389 Epoch[62] Batch [40]	Speed: 98.73 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:52:41,823 Epoch[62] Train-accuracy=0.995833
+2017-07-22 03:52:41,824 Epoch[62] Time cost=22.114
+2017-07-22 03:52:42,212 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0063.params"
+2017-07-22 03:52:42,742 Epoch[62] Validation-accuracy=0.958333
+2017-07-22 03:52:47,830 Epoch[63] Batch [10]	Speed: 98.66 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:52:52,693 Epoch[63] Batch [20]	Speed: 98.71 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:52:57,550 Epoch[63] Batch [30]	Speed: 98.85 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:53:02,404 Epoch[63] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:53:04,343 Epoch[63] Train-accuracy=1.000000
+2017-07-22 03:53:04,343 Epoch[63] Time cost=21.601
+2017-07-22 03:53:04,720 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0064.params"
+2017-07-22 03:53:05,074 Epoch[63] Validation-accuracy=0.958333
+2017-07-22 03:53:10,162 Epoch[64] Batch [10]	Speed: 98.68 samples/sec	Train-accuracy=0.996212
+2017-07-22 03:53:15,016 Epoch[64] Batch [20]	Speed: 98.89 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:53:19,869 Epoch[64] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:53:24,724 Epoch[64] Batch [40]	Speed: 98.86 samples/sec	Train-accuracy=0.985417
+2017-07-22 03:53:27,151 Epoch[64] Train-accuracy=0.995833
+2017-07-22 03:53:27,151 Epoch[64] Time cost=22.077
+2017-07-22 03:53:27,529 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0065.params"
+2017-07-22 03:53:28,058 Epoch[64] Validation-accuracy=0.951389
+2017-07-22 03:53:33,123 Epoch[65] Batch [10]	Speed: 98.74 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:53:37,985 Epoch[65] Batch [20]	Speed: 98.73 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:53:42,827 Epoch[65] Batch [30]	Speed: 99.14 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:53:47,679 Epoch[65] Batch [40]	Speed: 98.94 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:53:49,623 Epoch[65] Train-accuracy=1.000000
+2017-07-22 03:53:49,623 Epoch[65] Time cost=21.564
+2017-07-22 03:53:50,000 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0066.params"
+2017-07-22 03:53:50,351 Epoch[65] Validation-accuracy=0.968750
+2017-07-22 03:53:55,411 Epoch[66] Batch [10]	Speed: 98.78 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:54:00,287 Epoch[66] Batch [20]	Speed: 98.45 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:54:05,167 Epoch[66] Batch [30]	Speed: 98.36 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:54:10,020 Epoch[66] Batch [40]	Speed: 98.92 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:54:11,960 Epoch[66] Train-accuracy=1.000000
+2017-07-22 03:54:11,960 Epoch[66] Time cost=21.609
+2017-07-22 03:54:12,342 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0067.params"
+2017-07-22 03:54:12,709 Epoch[66] Validation-accuracy=0.947917
+2017-07-22 03:54:17,775 Epoch[67] Batch [10]	Speed: 98.73 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:54:22,632 Epoch[67] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:54:27,484 Epoch[67] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:54:32,352 Epoch[67] Batch [40]	Speed: 98.63 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:54:34,787 Epoch[67] Train-accuracy=1.000000
+2017-07-22 03:54:34,787 Epoch[67] Time cost=22.077
+2017-07-22 03:54:35,165 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0068.params"
+2017-07-22 03:54:35,693 Epoch[67] Validation-accuracy=0.958333
+2017-07-22 03:54:40,768 Epoch[68] Batch [10]	Speed: 98.78 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:54:45,632 Epoch[68] Batch [20]	Speed: 98.70 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:54:50,492 Epoch[68] Batch [30]	Speed: 98.77 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:54:55,347 Epoch[68] Batch [40]	Speed: 98.87 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:54:57,290 Epoch[68] Train-accuracy=1.000000
+2017-07-22 03:54:57,290 Epoch[68] Time cost=21.596
+2017-07-22 03:54:57,669 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0069.params"
+2017-07-22 03:54:58,037 Epoch[68] Validation-accuracy=0.958333
+2017-07-22 03:55:03,107 Epoch[69] Batch [10]	Speed: 98.60 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:55:07,973 Epoch[69] Batch [20]	Speed: 98.67 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:55:12,847 Epoch[69] Batch [30]	Speed: 98.49 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:55:17,704 Epoch[69] Batch [40]	Speed: 98.83 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:55:20,134 Epoch[69] Train-accuracy=0.995833
+2017-07-22 03:55:20,135 Epoch[69] Time cost=22.097
+2017-07-22 03:55:20,512 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0070.params"
+2017-07-22 03:55:21,041 Epoch[69] Validation-accuracy=0.951389
+2017-07-22 03:55:26,133 Epoch[70] Batch [10]	Speed: 98.51 samples/sec	Train-accuracy=0.996212
+2017-07-22 03:55:30,999 Epoch[70] Batch [20]	Speed: 98.65 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:55:35,857 Epoch[70] Batch [30]	Speed: 98.81 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:55:40,707 Epoch[70] Batch [40]	Speed: 98.98 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:55:42,654 Epoch[70] Train-accuracy=0.994792
+2017-07-22 03:55:42,654 Epoch[70] Time cost=21.612
+2017-07-22 03:55:43,036 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0071.params"
+2017-07-22 03:55:43,405 Epoch[70] Validation-accuracy=0.968750
+2017-07-22 03:55:48,483 Epoch[71] Batch [10]	Speed: 98.84 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:55:53,339 Epoch[71] Batch [20]	Speed: 98.86 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:55:58,191 Epoch[71] Batch [30]	Speed: 98.92 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:56:03,044 Epoch[71] Batch [40]	Speed: 98.92 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:56:04,984 Epoch[71] Train-accuracy=1.000000
+2017-07-22 03:56:04,984 Epoch[71] Time cost=21.579
+2017-07-22 03:56:05,362 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0072.params"
+2017-07-22 03:56:05,730 Epoch[71] Validation-accuracy=0.947917
+2017-07-22 03:56:10,959 Epoch[72] Batch [10]	Speed: 98.98 samples/sec	Train-accuracy=0.990530
+2017-07-22 03:56:15,811 Epoch[72] Batch [20]	Speed: 98.93 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:56:20,666 Epoch[72] Batch [30]	Speed: 98.88 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:56:25,527 Epoch[72] Batch [40]	Speed: 98.75 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:56:27,953 Epoch[72] Train-accuracy=0.995833
+2017-07-22 03:56:27,953 Epoch[72] Time cost=22.222
+2017-07-22 03:56:28,332 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0073.params"
+2017-07-22 03:56:28,860 Epoch[72] Validation-accuracy=0.958333
+2017-07-22 03:56:33,911 Epoch[73] Batch [10]	Speed: 98.87 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:56:38,765 Epoch[73] Batch [20]	Speed: 98.89 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:56:43,618 Epoch[73] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:56:48,472 Epoch[73] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:56:50,410 Epoch[73] Train-accuracy=1.000000
+2017-07-22 03:56:50,411 Epoch[73] Time cost=21.550
+2017-07-22 03:56:50,791 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0074.params"
+2017-07-22 03:56:51,158 Epoch[73] Validation-accuracy=0.958333
+2017-07-22 03:56:56,211 Epoch[74] Batch [10]	Speed: 98.78 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:57:01,064 Epoch[74] Batch [20]	Speed: 98.93 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:57:05,916 Epoch[74] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:57:10,767 Epoch[74] Batch [40]	Speed: 98.94 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:57:13,192 Epoch[74] Train-accuracy=1.000000
+2017-07-22 03:57:13,192 Epoch[74] Time cost=22.034
+2017-07-22 03:57:13,570 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0075.params"
+2017-07-22 03:57:14,098 Epoch[74] Validation-accuracy=0.951389
+2017-07-22 03:57:19,180 Epoch[75] Batch [10]	Speed: 98.75 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:57:24,030 Epoch[75] Batch [20]	Speed: 98.97 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:57:28,884 Epoch[75] Batch [30]	Speed: 98.90 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:57:33,739 Epoch[75] Batch [40]	Speed: 98.88 samples/sec	Train-accuracy=0.989583
+2017-07-22 03:57:35,679 Epoch[75] Train-accuracy=1.000000
+2017-07-22 03:57:35,679 Epoch[75] Time cost=21.581
+2017-07-22 03:57:36,063 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0076.params"
+2017-07-22 03:57:36,434 Epoch[75] Validation-accuracy=0.968750
+2017-07-22 03:57:41,501 Epoch[76] Batch [10]	Speed: 98.81 samples/sec	Train-accuracy=0.994318
+2017-07-22 03:57:46,353 Epoch[76] Batch [20]	Speed: 98.92 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:57:51,206 Epoch[76] Batch [30]	Speed: 98.93 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:57:56,060 Epoch[76] Batch [40]	Speed: 98.89 samples/sec	Train-accuracy=0.993750
+2017-07-22 03:57:58,486 Epoch[76] Train-accuracy=1.000000
+2017-07-22 03:57:58,486 Epoch[76] Time cost=22.052
+2017-07-22 03:57:58,856 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0077.params"
+2017-07-22 03:57:59,222 Epoch[76] Validation-accuracy=0.947917
+2017-07-22 03:58:04,292 Epoch[77] Batch [10]	Speed: 98.89 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:58:09,155 Epoch[77] Batch [20]	Speed: 98.71 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:58:14,011 Epoch[77] Batch [30]	Speed: 98.86 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:58:18,882 Epoch[77] Batch [40]	Speed: 98.55 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:58:20,826 Epoch[77] Train-accuracy=1.000000
+2017-07-22 03:58:20,826 Epoch[77] Time cost=21.603
+2017-07-22 03:58:21,207 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0078.params"
+2017-07-22 03:58:21,735 Epoch[77] Validation-accuracy=0.958333
+2017-07-22 03:58:26,794 Epoch[78] Batch [10]	Speed: 98.82 samples/sec	Train-accuracy=0.992424
+2017-07-22 03:58:31,651 Epoch[78] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=0.991667
+2017-07-22 03:58:36,506 Epoch[78] Batch [30]	Speed: 98.87 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:58:41,364 Epoch[78] Batch [40]	Speed: 98.81 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:58:43,306 Epoch[78] Train-accuracy=1.000000
+2017-07-22 03:58:43,306 Epoch[78] Time cost=21.572
+2017-07-22 03:58:43,680 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0079.params"
+2017-07-22 03:58:44,048 Epoch[78] Validation-accuracy=0.958333
+2017-07-22 03:58:49,109 Epoch[79] Batch [10]	Speed: 98.83 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:58:53,961 Epoch[79] Batch [20]	Speed: 98.93 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:58:58,817 Epoch[79] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:59:03,665 Epoch[79] Batch [40]	Speed: 99.03 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:59:06,094 Epoch[79] Train-accuracy=1.000000
+2017-07-22 03:59:06,094 Epoch[79] Time cost=22.045
+2017-07-22 03:59:06,477 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0080.params"
+2017-07-22 03:59:06,990 Epoch[79] Validation-accuracy=0.951389
+2017-07-22 03:59:12,038 Epoch[80] Batch [10]	Speed: 98.81 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:59:16,895 Epoch[80] Batch [20]	Speed: 98.84 samples/sec	Train-accuracy=0.995833
+2017-07-22 03:59:21,751 Epoch[80] Batch [30]	Speed: 98.85 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:59:26,616 Epoch[80] Batch [40]	Speed: 98.68 samples/sec	Train-accuracy=0.997917
+2017-07-22 03:59:28,556 Epoch[80] Train-accuracy=1.000000
+2017-07-22 03:59:28,556 Epoch[80] Time cost=21.566
+2017-07-22 03:59:28,937 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0081.params"
+2017-07-22 03:59:29,305 Epoch[80] Validation-accuracy=0.968750
+2017-07-22 03:59:34,352 Epoch[81] Batch [10]	Speed: 98.95 samples/sec	Train-accuracy=0.998106
+2017-07-22 03:59:39,199 Epoch[81] Batch [20]	Speed: 99.04 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:59:44,057 Epoch[81] Batch [30]	Speed: 98.81 samples/sec	Train-accuracy=1.000000
+2017-07-22 03:59:48,907 Epoch[81] Batch [40]	Speed: 98.99 samples/sec	Train-accuracy=0.987500
+2017-07-22 03:59:51,342 Epoch[81] Train-accuracy=0.995833
+2017-07-22 03:59:51,342 Epoch[81] Time cost=22.037
+2017-07-22 03:59:51,719 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0082.params"
+2017-07-22 03:59:52,081 Epoch[81] Validation-accuracy=0.947917
+2017-07-22 03:59:57,168 Epoch[82] Batch [10]	Speed: 98.65 samples/sec	Train-accuracy=0.994318
+2017-07-22 04:00:02,027 Epoch[82] Batch [20]	Speed: 98.79 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:00:06,880 Epoch[82] Batch [30]	Speed: 98.92 samples/sec	Train-accuracy=0.991667
+2017-07-22 04:00:11,731 Epoch[82] Batch [40]	Speed: 98.95 samples/sec	Train-accuracy=0.991667
+2017-07-22 04:00:13,675 Epoch[82] Train-accuracy=1.000000
+2017-07-22 04:00:13,675 Epoch[82] Time cost=21.594
+2017-07-22 04:00:14,053 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0083.params"
+2017-07-22 04:00:14,583 Epoch[82] Validation-accuracy=0.958333
+2017-07-22 04:00:19,660 Epoch[83] Batch [10]	Speed: 98.70 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:00:24,525 Epoch[83] Batch [20]	Speed: 98.66 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:00:29,380 Epoch[83] Batch [30]	Speed: 98.87 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:00:34,234 Epoch[83] Batch [40]	Speed: 98.91 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:00:36,174 Epoch[83] Train-accuracy=0.994792
+2017-07-22 04:00:36,175 Epoch[83] Time cost=21.591
+2017-07-22 04:00:36,551 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0084.params"
+2017-07-22 04:00:36,919 Epoch[83] Validation-accuracy=0.958333
+2017-07-22 04:00:42,150 Epoch[84] Batch [10]	Speed: 98.79 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:00:47,011 Epoch[84] Batch [20]	Speed: 98.77 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:00:51,865 Epoch[84] Batch [30]	Speed: 98.89 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:00:56,715 Epoch[84] Batch [40]	Speed: 98.97 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:00:59,145 Epoch[84] Train-accuracy=0.995833
+2017-07-22 04:00:59,146 Epoch[84] Time cost=22.227
+2017-07-22 04:00:59,525 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0085.params"
+2017-07-22 04:01:00,054 Epoch[84] Validation-accuracy=0.944444
+2017-07-22 04:01:05,112 Epoch[85] Batch [10]	Speed: 98.75 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:09,970 Epoch[85] Batch [20]	Speed: 98.83 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:14,833 Epoch[85] Batch [30]	Speed: 98.70 samples/sec	Train-accuracy=0.993750
+2017-07-22 04:01:19,690 Epoch[85] Batch [40]	Speed: 98.84 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:21,634 Epoch[85] Train-accuracy=0.994792
+2017-07-22 04:01:21,634 Epoch[85] Time cost=21.580
+2017-07-22 04:01:22,012 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0086.params"
+2017-07-22 04:01:22,382 Epoch[85] Validation-accuracy=0.968750
+2017-07-22 04:01:27,437 Epoch[86] Batch [10]	Speed: 98.82 samples/sec	Train-accuracy=0.992424
+2017-07-22 04:01:32,296 Epoch[86] Batch [20]	Speed: 98.79 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:37,157 Epoch[86] Batch [30]	Speed: 98.74 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:01:42,017 Epoch[86] Batch [40]	Speed: 98.78 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:44,445 Epoch[86] Train-accuracy=0.995833
+2017-07-22 04:01:44,445 Epoch[86] Time cost=22.063
+2017-07-22 04:01:44,813 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0087.params"
+2017-07-22 04:01:45,179 Epoch[86] Validation-accuracy=0.958333
+2017-07-22 04:01:50,235 Epoch[87] Batch [10]	Speed: 98.73 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:55,090 Epoch[87] Batch [20]	Speed: 98.88 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:01:59,953 Epoch[87] Batch [30]	Speed: 98.71 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:02:04,815 Epoch[87] Batch [40]	Speed: 98.73 samples/sec	Train-accuracy=0.993750
+2017-07-22 04:02:06,760 Epoch[87] Train-accuracy=1.000000
+2017-07-22 04:02:06,761 Epoch[87] Time cost=21.582
+2017-07-22 04:02:07,140 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0088.params"
+2017-07-22 04:02:07,652 Epoch[87] Validation-accuracy=0.958333
+2017-07-22 04:02:12,712 Epoch[88] Batch [10]	Speed: 98.88 samples/sec	Train-accuracy=0.988636
+2017-07-22 04:02:17,565 Epoch[88] Batch [20]	Speed: 98.90 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:02:22,435 Epoch[88] Batch [30]	Speed: 98.58 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:02:27,291 Epoch[88] Batch [40]	Speed: 98.86 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:02:29,717 Epoch[88] Train-accuracy=1.000000
+2017-07-22 04:02:29,717 Epoch[88] Time cost=22.065
+2017-07-22 04:02:30,102 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0089.params"
+2017-07-22 04:02:30,469 Epoch[88] Validation-accuracy=0.958333
+2017-07-22 04:02:35,529 Epoch[89] Batch [10]	Speed: 98.75 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:02:40,381 Epoch[89] Batch [20]	Speed: 98.94 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:02:45,237 Epoch[89] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:02:50,098 Epoch[89] Batch [40]	Speed: 98.76 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:02:52,045 Epoch[89] Train-accuracy=1.000000
+2017-07-22 04:02:52,046 Epoch[89] Time cost=21.577
+2017-07-22 04:02:52,422 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0090.params"
+2017-07-22 04:02:52,949 Epoch[89] Validation-accuracy=0.944444
+2017-07-22 04:02:57,996 Epoch[90] Batch [10]	Speed: 98.90 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:03:02,851 Epoch[90] Batch [20]	Speed: 98.87 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:03:07,703 Epoch[90] Batch [30]	Speed: 98.94 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:03:12,553 Epoch[90] Batch [40]	Speed: 98.97 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:03:14,498 Epoch[90] Train-accuracy=1.000000
+2017-07-22 04:03:14,498 Epoch[90] Time cost=21.549
+2017-07-22 04:03:14,879 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0091.params"
+2017-07-22 04:03:15,248 Epoch[90] Validation-accuracy=0.968750
+2017-07-22 04:03:20,311 Epoch[91] Batch [10]	Speed: 98.85 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:03:25,164 Epoch[91] Batch [20]	Speed: 98.90 samples/sec	Train-accuracy=0.993750
+2017-07-22 04:03:30,019 Epoch[91] Batch [30]	Speed: 98.88 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:03:34,868 Epoch[91] Batch [40]	Speed: 98.99 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:03:37,297 Epoch[91] Train-accuracy=1.000000
+2017-07-22 04:03:37,298 Epoch[91] Time cost=22.049
+2017-07-22 04:03:37,674 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0092.params"
+2017-07-22 04:03:38,040 Epoch[91] Validation-accuracy=0.958333
+2017-07-22 04:03:43,100 Epoch[92] Batch [10]	Speed: 98.89 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:03:47,952 Epoch[92] Batch [20]	Speed: 98.93 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:03:52,809 Epoch[92] Batch [30]	Speed: 98.84 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:03:57,664 Epoch[92] Batch [40]	Speed: 98.87 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:03:59,602 Epoch[92] Train-accuracy=0.994792
+2017-07-22 04:03:59,602 Epoch[92] Time cost=21.562
+2017-07-22 04:03:59,980 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0093.params"
+2017-07-22 04:04:00,486 Epoch[92] Validation-accuracy=0.958333
+2017-07-22 04:04:05,553 Epoch[93] Batch [10]	Speed: 98.68 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:04:10,404 Epoch[93] Batch [20]	Speed: 98.96 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:04:15,260 Epoch[93] Batch [30]	Speed: 98.86 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:04:20,159 Epoch[93] Batch [40]	Speed: 97.98 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:04:22,582 Epoch[93] Train-accuracy=0.995833
+2017-07-22 04:04:22,582 Epoch[93] Time cost=22.096
+2017-07-22 04:04:22,957 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0094.params"
+2017-07-22 04:04:23,321 Epoch[93] Validation-accuracy=0.958333
+2017-07-22 04:04:28,374 Epoch[94] Batch [10]	Speed: 98.95 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:04:33,214 Epoch[94] Batch [20]	Speed: 99.18 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:04:38,059 Epoch[94] Batch [30]	Speed: 99.07 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:04:42,898 Epoch[94] Batch [40]	Speed: 99.21 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:04:44,835 Epoch[94] Train-accuracy=1.000000
+2017-07-22 04:04:44,836 Epoch[94] Time cost=21.514
+2017-07-22 04:04:45,204 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0095.params"
+2017-07-22 04:04:45,558 Epoch[94] Validation-accuracy=0.947917
+2017-07-22 04:04:50,616 Epoch[95] Batch [10]	Speed: 98.93 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:04:55,474 Epoch[95] Batch [20]	Speed: 98.81 samples/sec	Train-accuracy=0.993750
+2017-07-22 04:05:00,323 Epoch[95] Batch [30]	Speed: 98.98 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:05:05,174 Epoch[95] Batch [40]	Speed: 98.95 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:05:07,111 Epoch[95] Train-accuracy=0.994792
+2017-07-22 04:05:07,111 Epoch[95] Time cost=21.553
+2017-07-22 04:05:07,482 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0096.params"
+2017-07-22 04:05:08,073 Epoch[95] Validation-accuracy=0.958333
+2017-07-22 04:05:13,294 Epoch[96] Batch [10]	Speed: 99.20 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:05:18,139 Epoch[96] Batch [20]	Speed: 99.08 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:05:22,988 Epoch[96] Batch [30]	Speed: 98.98 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:05:27,839 Epoch[96] Batch [40]	Speed: 98.95 samples/sec	Train-accuracy=0.993750
+2017-07-22 04:05:30,269 Epoch[96] Train-accuracy=0.995833
+2017-07-22 04:05:30,270 Epoch[96] Time cost=22.196
+2017-07-22 04:05:30,646 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0097.params"
+2017-07-22 04:05:31,014 Epoch[96] Validation-accuracy=0.958333
+2017-07-22 04:05:36,071 Epoch[97] Batch [10]	Speed: 98.88 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:05:40,911 Epoch[97] Batch [20]	Speed: 99.18 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:05:45,751 Epoch[97] Batch [30]	Speed: 99.17 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:05:50,586 Epoch[97] Batch [40]	Speed: 99.29 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:05:52,523 Epoch[97] Train-accuracy=1.000000
+2017-07-22 04:05:52,523 Epoch[97] Time cost=21.509
+2017-07-22 04:05:52,899 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0098.params"
+2017-07-22 04:05:53,403 Epoch[97] Validation-accuracy=0.958333
+2017-07-22 04:05:58,446 Epoch[98] Batch [10]	Speed: 99.10 samples/sec	Train-accuracy=0.998106
+2017-07-22 04:06:03,277 Epoch[98] Batch [20]	Speed: 99.35 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:06:08,125 Epoch[98] Batch [30]	Speed: 99.02 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:06:12,987 Epoch[98] Batch [40]	Speed: 98.72 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:06:15,407 Epoch[98] Train-accuracy=1.000000
+2017-07-22 04:06:15,407 Epoch[98] Time cost=22.004
+2017-07-22 04:06:15,775 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0099.params"
+2017-07-22 04:06:16,136 Epoch[98] Validation-accuracy=0.958333
+2017-07-22 04:06:21,220 Epoch[99] Batch [10]	Speed: 98.58 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:06:26,073 Epoch[99] Batch [20]	Speed: 98.91 samples/sec	Train-accuracy=1.000000
+2017-07-22 04:06:30,929 Epoch[99] Batch [30]	Speed: 98.87 samples/sec	Train-accuracy=0.995833
+2017-07-22 04:06:35,776 Epoch[99] Batch [40]	Speed: 99.04 samples/sec	Train-accuracy=0.997917
+2017-07-22 04:06:37,723 Epoch[99] Train-accuracy=1.000000
+2017-07-22 04:06:37,723 Epoch[99] Time cost=21.588
+2017-07-22 04:06:38,097 Saved checkpoint to "../../models/pretrained-models/inception-21k/inception-21k-train-224-lr-0.01-momentum-0.9-0100.params"
+2017-07-22 04:06:38,460 Epoch[99] Validation-accuracy=0.958333
