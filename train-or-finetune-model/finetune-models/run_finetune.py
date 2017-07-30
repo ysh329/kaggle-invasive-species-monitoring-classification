@@ -70,6 +70,7 @@ def get_fine_tune_model(symbol, arg_params, num_classes, layer_name='flatten0'):
             layer_name = 'flatten_0'
             net = all_layers[layer_name+'_output']
         except:
+            print "note: don't have flatten_0, but flatten"
             layer_name = 'flatten'
             net = all_layers[layer_name+'_output']
     net = mx.symbol.FullyConnected(data=net, num_hidden=num_classes, name='fc1')
@@ -106,7 +107,7 @@ def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_m
 
 # @@@ AUTOTEST_OUTPUT_IGNORED_CELL
 num_classes = 2
-batch_per_gpu = 18
+batch_per_gpu = 24
 num_gpus = 2
 save_model_prefix = sys.argv[3]
 
