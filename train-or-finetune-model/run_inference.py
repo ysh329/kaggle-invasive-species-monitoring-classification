@@ -22,12 +22,12 @@ def get_image(url, show=False):
 
 def predict(filename, mod, synsets, Batch, resize_shape=(224, 224)):
     # Oops!!! cv2 crashed!
-    #img = cv2.cvtColor(cv2.imread(filename), cv2.COLOR_BGR2RGB)
-    from skimage import io
-    img = io.imread(filename)
+    img = cv2.cvtColor(cv2.imread(filename), cv2.COLOR_BGR2RGB)
+    #from skimage import io
+    #img = io.imread(filename)
     if img is None:
         return None
-    #img = cv2.resize(img, resize_shape)
+    img = cv2.resize(img, resize_shape)
     img = np.swapaxes(img, 0, 2)
     img = np.swapaxes(img, 1, 2) 
     img = img[np.newaxis, :] 
@@ -47,7 +47,7 @@ def main():
 
     # inialization paramter
     #test_dir = '/home/yuanshuai/data/ccs/test_seg_224'
-    test_dir = "/home/yuanshuai/data/ccs/test_stg2_seg_224"
+    test_dir = "../data/test"
     resize_shape = (224, 224)
     batch_size = 1
     num_gpus = 1
@@ -66,7 +66,7 @@ def main():
 
     # Create a model for this model on GPU 0.
     #devs = [mx.gpu(i) for i in xrange(num_gpus)]
-    devs = [mx.gpu(2)]
+    devs = [mx.gpu(0)]
     mod = mx.mod.Module(symbol=sym, context=devs)
     #mod = mx.mod.Module(symbol=sym, context=mx.cpu())
     mod.bind(for_training=False, data_shapes=[('data', (batch_size, 3,data_shape[0],data_shape[1]))])
@@ -94,7 +94,7 @@ def main():
 
     import csv
     csvfile = open(csv_name,'wb')
-    csvfile.write(",".join(['image_name', 'Type_1', 'Type_2', 'Type_3\n']))
+    csvfile.write(",".join(['name', 'invasive\n']))
 
     for test_img_idx in xrange(len(test_img_dir_list)):#xrange(3):
         #test_img_dir = test_img_dir_list[test_img_idx]
@@ -102,7 +102,8 @@ def main():
         print test_img_dir
         test_img_prob = predict(test_img_dir, mod, synsets, Batch)
 
-        row = ",".join([test_img_dir.split('/')[-1]] + map(str, test_img_prob))+'\n'
+        img_name = test_img_dir.split('/')[-1]
+        row = ",".join([img_name.split('.')[0]] + map(str, [test_img_prob[0]]))+'\n'
         #print row
         csvfile.write(row)
 

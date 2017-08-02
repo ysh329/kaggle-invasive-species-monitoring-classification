@@ -1,3 +1,2 @@
-0 type1
-1 type2
-2 type3
+0 invasive
+1 not-invasive
