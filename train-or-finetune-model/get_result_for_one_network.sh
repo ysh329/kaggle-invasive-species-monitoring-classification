@@ -1,15 +1,17 @@
 #!/bin/bash
 
 # initialization
-model_prefix_arr=("../models/pretrained-models/resnet-50/resnet-50-train-224-lr-0.01")
+#model_prefix_arr=("../models/pretrained-models/resnet-200/resnet-200-train-224-lr-0.01")
+#model_prefix_arr=("../models/pretrained-models/caffenet/caffenet-train-224-lr-0.001")
+#model_prefix_arr=("../models/pretrained-models/vgg-19/vgg19-train-224-lr-0.001")
+#model_prefix_arr=("../models/pretrained-models/nin/nin-train-224-lr-0.001-momentum-0.9")
+#model_prefix_arr=("../models/pretrained-models/resnext-101/resnext-101-train-224-lr-0.01")
 
-#model_prefix_arr=("./finetune-models/vgg-16/vgg-16")
-#model_prefix_arr=("./finetune-models/resneXt-50-lr-0.001/finetune-resnext-50-train-add-seg-224-lr-0.001-momentum-0.9")
-#model_prefix_arr=("./finetune-models/resneXt-101-lr-0.001/finetune-resnext-101-train-add-seg-224-lr-0.001-momentum-0.9")
-#model_prefix_arr=("./finetune-models/resnet-101-lr-0.001/finetune-resnet-101-train-add-seg-224-lr-0.001-momentum-0.9")
-#model_prefix_arr=("./finetune-models/resnet-152-lr-0.001/finetune-resnet-152-train-add-seg-224-lr-0.001-momentum-0.9")
-#model_prefix_arr=("./finetune-models/resnet-200-lr-0.001/finetune-resnet-200-train-add-seg-224-lr-0.001-momentum-0.9")
-model_max_epoch_num_arr=(40)
+model_prefix_arr=("../models/pretrained-models/squeezenet-v1.0/squeezenet_v1.0-train-224-lr-0.001-momentum-0.9")
+
+#model_prefix_arr=("../models/pretrained-models/squeezenet-v1.1/squeezenet_v1.1-train-224-lr-0.001-momentum-0.9")
+
+model_max_epoch_num_arr=(100)
 #model_num=${#model_prefix_arr[@]}-1
 #printf "${model_num}\n"
 
