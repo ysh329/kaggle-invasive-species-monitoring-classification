@@ -87,7 +87,7 @@ logging.basicConfig(level=logging.DEBUG, format=head)
 
 def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_model_prefix):
     devs = [mx.gpu(i) for i in xrange(num_gpus)]
-    devs = [mx.gpu(2), mx.gpu(1)]
+    #devs = [mx.gpu(2), mx.gpu(1)]
     #devs = mx.cpu()
     mod = mx.mod.Module(symbol=new_sym, context=devs)
     mod.fit(train, val, 
@@ -98,8 +98,8 @@ def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_m
         batch_end_callback = mx.callback.Speedometer(batch_size, 10),
         epoch_end_callback=mx.callback.do_checkpoint(save_model_prefix),
         kvstore='device',
-        optimizer='sgd',
-        optimizer_params={'learning_rate':0.001, 'momentum': 0.9},
+        optimizer='adam',
+        optimizer_params={'learning_rate':0.01, 'momentum': 0.9},
         initializer=mx.init.Xavier(rnd_type='gaussian', factor_type="in", magnitude=2),
         eval_metric='acc')
     metric = mx.metric.Accuracy()

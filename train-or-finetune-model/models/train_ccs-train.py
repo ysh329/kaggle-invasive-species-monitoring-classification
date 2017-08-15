@@ -14,10 +14,8 @@ def download_cifar10():
     #download_file('http://data.mxnet.io/data/cifar10/cifar10_train.rec', fnames[0])
     fnames = range(2)
     # train-add-seg-224
-    fnames[0] = "./data/ccs-train-add-seg-224_train.rec"
-    fnames[1] = "./data/ccs-train-add-seg-224_val.rec"
-    #fnames[0] = "./data/ccs-train-seg-224_train.rec"
-    #fnames[1] = "./data/ccs-train-seg-224_val.rec"
+    fnames[0] = "../../data/ism-train_train.rec"
+    fnames[1] = "../../data/ism-train_val.rec"
     return fnames
 
 if __name__ == '__main__':
@@ -38,19 +36,20 @@ if __name__ == '__main__':
         # data
         data_train     = train_fname,
         data_val       = val_fname,
-        num_classes    = 3,
+        num_classes    = 2,
         # train_add
         num_examples = 7804,
         #num_examples   = 1406,#train:1406.95 all:1481
         image_shape    = '3,224,224',
         pad_size       = 4,
         # train
-        batch_size     = 24, 
+        batch_size     = 24,
         num_epochs     = 150,
         #default lr:0.05
         lr             = .01,
+        momentum       = .9,
         lr_step_epochs = '200,250',
-        gpus           = '1' 
+        gpus           = '0,1,2' 
     )   
     args = parser.parse_args()
 
