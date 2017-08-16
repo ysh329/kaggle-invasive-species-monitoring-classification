@@ -87,7 +87,7 @@ logging.basicConfig(level=logging.DEBUG, format=head)
 
 def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_model_prefix):
     devs = [mx.gpu(i) for i in xrange(num_gpus)]
-    #devs = [mx.gpu(2), mx.gpu(1)]
+    #devs = [mx.gpu(2), mx.gpu(1), mx.gpu(0)]
     #devs = mx.cpu()
     mod = mx.mod.Module(symbol=new_sym, context=devs)
     mod.fit(train, val, 
@@ -99,7 +99,7 @@ def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_m
         epoch_end_callback=mx.callback.do_checkpoint(save_model_prefix),
         kvstore='device',
         optimizer='adam',
-        optimizer_params={'learning_rate':0.01, 'momentum': 0.9},
+        optimizer_params={'learning_rate':0.01,},
         initializer=mx.init.Xavier(rnd_type='gaussian', factor_type="in", magnitude=2),
         eval_metric='acc')
     metric = mx.metric.Accuracy()
@@ -107,8 +107,8 @@ def fit(symbol, arg_params, aux_params, train, val, batch_size, num_gpus, save_m
 
 # @@@ AUTOTEST_OUTPUT_IGNORED_CELL
 num_classes = 2
-batch_per_gpu = 24
-num_gpus = 2
+batch_per_gpu = int(sys.argv[6])
+num_gpus = int(sys.argv[5])
 save_model_prefix = sys.argv[3]
 
 (new_sym, new_args) = get_fine_tune_model(sym, arg_params, num_classes)
