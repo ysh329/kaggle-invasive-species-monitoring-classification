@@ -34,7 +34,7 @@ def create_cmd():
                 cmd = [starter_cmd,   # python run_finetine.py
                        model_prefix,  # load model prefix
                        model_epoch,   # load model epoch
-                       model_prefix,  # save model prefix
+                       model_prefix+"-gpunum-"+str(gpu_num)+"-bsize-"+str(batch_size),  # save model prefix
                        run_epoch_num, # run train epoch number
                        gpu_num,       # gpu numbers
                        batch_size]    # batch size
