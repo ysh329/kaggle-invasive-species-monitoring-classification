@@ -17,7 +17,7 @@ def init():
     model_epoch_list = [0, 0, 0, 0]
     run_epoch_num_list = [1, 1, 1, 1]
     gpus_num_list = [1, 2, 4]
-    batch_size_list = map(lambda base: 2**base, xrange(1, 11)) #1~1024
+    batch_size_list = map(lambda base: 2**base, xrange(0, 11)) #1~1024
     ############################################ init ######################################
 
 def create_cmd():
