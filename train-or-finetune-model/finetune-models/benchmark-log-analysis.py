@@ -11,7 +11,7 @@ def init():
     target_str = "Saved"
     speed_pattern = ".*Speed: (.*) samples/sec.*"
     model_name_pattern = ".*Saved checkpoint to.*pretrained-models/(.*)-0001.params.*"
-    output_header = "model-name\tave-speed\tspeed-var\thi-speed\tlo-speed\tspeed-num"
+    output_header = "model-name\tave-speed(samples/sec)\tspeed-var\thi-speed\tlo-speed\tspeed-num"
 
 
 def run():
